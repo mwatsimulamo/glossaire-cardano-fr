@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "dev": "vitepress dev .",
-    "build": "vitepress build .",
+    "categories": "node scripts/build-categories.mjs",
+    "build": "node scripts/build-categories.mjs && vitepress build .",
     "preview": "vitepress preview ."
   },
   "devDependencies": {

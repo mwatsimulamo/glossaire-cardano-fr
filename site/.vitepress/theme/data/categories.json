@@ -1,0 +1,1968 @@
+{
+  "categories": [
+    {
+      "id": "general",
+      "label": "Blockchain générale",
+      "labelEn": "General Blockchain"
+    },
+    {
+      "id": "tokens-assets",
+      "label": "Jetons et actifs",
+      "labelEn": "Tokens & Assets"
+    },
+    {
+      "id": "consensus-staking",
+      "label": "Consensus et staking",
+      "labelEn": "Consensus & Staking"
+    },
+    {
+      "id": "smart-contracts",
+      "label": "Contrats intelligents",
+      "labelEn": "Smart Contracts"
+    },
+    {
+      "id": "wallets-keys",
+      "label": "Portefeuilles et clés",
+      "labelEn": "Wallets & Keys"
+    },
+    {
+      "id": "governance",
+      "label": "Gouvernance",
+      "labelEn": "Governance"
+    },
+    {
+      "id": "network-protocol",
+      "label": "Réseau et protocole",
+      "labelEn": "Network & Protocol"
+    }
+  ],
+  "terms": [
+    {
+      "title": "a0 parameter (fr : Paramètre a₀)",
+      "letter": "a",
+      "slug": "a0-parameter-fr-parametre-a0",
+      "category": "consensus-staking",
+      "html": "<p>Le paramètre a₀ est un paramètre du protocole Cardano qui détermine dans quelle mesure le <em>pledge</em> (engagement en ada de l’opérateur d’un pool) augmente les récompenses potentielles de ce pool. Il contribue à encourager les opérateurs à engager leurs propres ada.</p><div class=\"gc-src\"><a class=\"gc-src__btn\" href=\"https://docs.cardano.org/about-cardano/learn/pledging-rewards\" target=\"_blank\" rel=\"noopener noreferrer\">Pledging and rewards — Cardano Docs</a></div>"
+    },
+    {
+      "title": "Active Slot Coefficient (fr : Coefficient de créneaux actifs)",
+      "letter": "a",
+      "slug": "active-slot-coefficient-fr-coefficient-de-creneaux-actifs",
+      "category": "consensus-staking",
+      "html": "<p>Un paramètre du protocole qui contrôle la probabilité qu’un créneau temporel (<em>slot</em>) soit attribué à un producteur de bloc élu. Sur le réseau principal Cardano, sa valeur est de 0,05.</p>"
+    },
+    {
+      "title": "ada",
+      "letter": "a",
+      "slug": "ada",
+      "category": "tokens-assets",
+      "html": "<p>La cryptomonnaie native de la blockchain Cardano. Elle sert à payer les frais de transaction, à déléguer des fonds à un pool de staking et à représenter le pouvoir de vote dans la gouvernance. La plus petite unité d’ada est le lovelace : 1 ada équivaut à 1 000 000 de lovelaces.</p><div class=\"gc-src\"><a class=\"gc-src__btn\" href=\"https://docs.cardano.org/about-cardano/new-to-cardano/what-is-a-cryptocurrency\" target=\"_blank\" rel=\"noopener noreferrer\">Qu’est-ce qu’une cryptomonnaie ? — Cardano Docs</a></div>"
+    },
+    {
+      "title": "Address (Blockchain Address) (fr : Adresse blockchain)",
+      "letter": "a",
+      "slug": "address-blockchain-address-fr-adresse-blockchain",
+      "category": "wallets-keys",
+      "html": "<p>Une adresse blockchain est une chaîne alphanumérique unique qui permet d’envoyer ou de recevoir des transactions. Sur Cardano, une adresse peut être associée à des clés cryptographiques ou à un script de validation, notamment dans le cas des contrats intelligents.</p><div class=\"gc-src\"><a class=\"gc-src__btn\" href=\"https://developers.cardano.org/docs/learn/core-concepts/addresses/\" target=\"_blank\" rel=\"noopener noreferrer\">Addresses — Cardano Developer Portal</a></div>"
+    },
+    {
+      "title": "Adaptive Corruption (fr : Corruption adaptative)",
+      "letter": "a",
+      "slug": "adaptive-corruption-fr-corruption-adaptative",
+      "category": "consensus-staking",
+      "html": "<p>Une stratégie d’attaque dans laquelle un adversaire choisit progressivement les validateurs à compromettre, après avoir observé lesquels ont été sélectionnés pour produire les prochains blocs.</p>"
+    },
+    {
+      "title": "Aiken",
+      "letter": "a",
+      "slug": "aiken",
+      "category": "smart-contracts",
+      "html": "<p>Un langage de programmation moderne conçu pour développer des contrats intelligents sur Cardano. Il vise à être accessible aux développeurs tout en permettant de produire du code efficace exécuté sur la blockchain.</p><div class=\"gc-src\"><a class=\"gc-src__btn\" href=\"https://aiken-lang.org/\" target=\"_blank\" rel=\"noopener noreferrer\">Documentation officielle d’Aiken</a></div>"
+    },
+    {
+      "title": "Allegra",
+      "letter": "a",
+      "slug": "allegra",
+      "category": "network-protocol",
+      "html": "<p>Un hard fork de Cardano mis en œuvre le 16 décembre 2020. Cette mise à niveau a introduit le verrouillage des jetons, une fonctionnalité qui a préparé le terrain pour les capacités ultérieures liées aux contrats intelligents.</p>"
+    },
+    {
+      "title": "Alonzo",
+      "letter": "a",
+      "slug": "alonzo",
+      "category": "smart-contracts",
+      "html": "<p>Un hard fork survenu le 12 septembre 2021, qui a introduit les fonctionnalités de contrats intelligents sur Cardano grâce à Plutus et marqué une étape importante dans l’évolution du réseau.</p>"
+    },
+    {
+      "title": "AMA (fr : Séance de questions-réponses en direct)",
+      "letter": "a",
+      "slug": "ama-fr-seance-de-questions-reponses-en-direct",
+      "category": "general",
+      "html": "<p>Un format de questions-réponses en direct dans lequel les membres de la communauté peuvent interroger directement des équipes de projets, des développeurs ou d’autres personnalités de l’écosystème Cardano. AMA signifie <em>Ask Me Anything</em> (« Demandez-moi ce que vous voulez »).</p>"
+    },
+    {
+      "title": "Amaru",
+      "letter": "a",
+      "slug": "amaru",
+      "category": "network-protocol",
+      "html": "<p>Une implémentation du nœud Cardano écrite en Rust et maintenue par PRAGMA. Elle constitue une alternative au nœud de référence écrit en Haskell et contribue à la diversité des implémentations logicielles du réseau. Selon la documentation actuelle du projet, Amaru fonctionne comme nœud relais sur le réseau principal ; la production de blocs constitue une étape ultérieure de son développement.</p><div class=\"gc-src\"><a class=\"gc-src__btn\" href=\"https://amaru.global/about/\" target=\"_blank\" rel=\"noopener noreferrer\">Documentation officielle d’Amaru</a></div><div class=\"gc-src\"><a class=\"gc-src__btn\" href=\"https://github.com/pragma-org/amaru\" target=\"_blank\" rel=\"noopener noreferrer\">Dépôt GitHub d’Amaru</a></div>"
+    },
+    {
+      "title": "Ambassador (Cardano Ambassador) (fr : Ambassadeur Cardano)",
+      "letter": "a",
+      "slug": "ambassador-cardano-ambassador-fr-ambassadeur-cardano",
+      "category": "general",
+      "html": "<p>Un membre de la communauté reconnu pour contribuer à l’éducation, à la sensibilisation et à l’adoption de Cardano, notamment par la création de contenu, l’engagement communautaire ou le développement technique.</p>"
+    },
+    {
+      "title": "Ambassador’s Guild (fr : Guilde des ambassadeurs)",
+      "letter": "a",
+      "slug": "ambassador-s-guild-fr-guilde-des-ambassadeurs",
+      "category": "general",
+      "html": "<p>Une initiative communautaire qui rassemble les ambassadeurs Cardano afin de collaborer, de partager des ressources et de coordonner leurs activités. Elle permet aux contributeurs d’échanger leurs connaissances, de soutenir leurs projets respectifs et de donner davantage de visibilité aux initiatives liées à Cardano.</p>"
+    },
+    {
+      "title": "Anti-Money Laundering (AML) (fr : Lutte contre le blanchiment d’argent)",
+      "letter": "a",
+      "slug": "anti-money-laundering-aml-fr-lutte-contre-le-blanchiment-d-argent",
+      "category": "general",
+      "html": "<p>Ensemble des lois, réglementations et pratiques visant à empêcher la dissimulation de l’origine de fonds illicites. Ces mesures peuvent obliger les institutions financières et les prestataires de services à surveiller les transactions, à détecter les activités suspectes et à les signaler aux autorités compétentes.</p>"
+    },
+    {
+      "title": "API (fr : Interface de programmation d’applications)",
+      "letter": "a",
+      "slug": "api-fr-interface-de-programmation-d-applications",
+      "category": "network-protocol",
+      "html": "<p>Un ensemble de points d’accès qui permettent à différents logiciels de communiquer entre eux. Dans l’écosystème Cardano, les API permettent notamment aux applications de consulter la blockchain, de soumettre des transactions et de lire des données enregistrées sur le réseau.</p>"
+    },
+    {
+      "title": "Appchain (fr : Blockchain applicative)",
+      "letter": "a",
+      "slug": "appchain-fr-blockchain-applicative",
+      "category": "general",
+      "html": "<p>Une blockchain conçue pour une application spécifique ou un ensemble limité de tâches. Contrairement aux blockchains généralistes, elle peut être optimisée pour un cas d’utilisation particulier et disposer de caractéristiques adaptées en matière de performances, de sécurité ou de gouvernance, par exemple pour les jeux vidéo ou la finance décentralisée (DeFi).</p>"
+    },
+    {
+      "title": "Application Layer (fr : Couche applicative)",
+      "letter": "a",
+      "slug": "application-layer-fr-couche-applicative",
+      "category": "general",
+      "html": "<p>La couche applicative désigne les programmes avec lesquels les utilisateurs interagissent pour accéder aux services de la blockchain. Elle se distingue de la couche d’infrastructure, ou <em>middleware</em>, qui communique directement avec les nœuds et fournit des interfaces aux applications.</p>"
+    },
+    {
+      "title": "Architecture (Cardano) (fr : Architecture de Cardano)",
+      "letter": "a",
+      "slug": "architecture-cardano-fr-architecture-de-cardano",
+      "category": "general",
+      "html": "<p>L’architecture de Cardano comprend plusieurs composants assurant les fonctions essentielles de la blockchain. Elle inclut notamment le réseau de communication entre pairs, le mécanisme de consensus Ouroboros, le registre qui enregistre les transactions et les fonctionnalités de scripts permettant l’exécution de contrats intelligents et d’applications décentralisées (dApps).</p>"
+    },
+    {
+      "title": "Asset (Blockchain) (fr : Actif blockchain)",
+      "letter": "a",
+      "slug": "asset-blockchain-fr-actif-blockchain",
+      "category": "tokens-assets",
+      "html": "<p>Une unité de valeur pouvant être enregistrée, transférée ou gérée à l’aide d’une blockchain. Sur Cardano, les actifs comprennent ada, la cryptomonnaie native, ainsi que les autres jetons natifs, appelés <em>Cardano Native Tokens</em> (CNT). Les actifs blockchain constituent une catégorie d’actifs numériques.</p><div class=\"gc-src\"><a class=\"gc-src__btn\" href=\"https://docs.cardano.org/developer-resources/native-tokens\" target=\"_blank\" rel=\"noopener noreferrer\">Native tokens — Cardano Docs</a></div>"
+    },
+    {
+      "title": "Asset Tokenization (fr : Tokenisation d’actifs)",
+      "letter": "a",
+      "slug": "asset-tokenization-fr-tokenisation-d-actifs",
+      "category": "tokens-assets",
+      "html": "<p>Le processus consistant à créer des jetons numériques sur une blockchain pour représenter la propriété, des droits ou des créances associés à un actif sous-jacent. Cet actif peut être tangible, comme un bien immobilier ou une matière première, ou intangible, comme un droit de propriété intellectuelle ou un instrument financier.</p>"
+    },
+    {
+      "title": "Atomic Swap (fr : Échange atomique)",
+      "letter": "a",
+      "slug": "atomic-swap-fr-echange-atomique",
+      "category": "general",
+      "html": "<p>Une méthode automatisée d’échange de jetons entre plusieurs parties, dans laquelle l’opération est soit exécutée intégralement lorsque les conditions prédéfinies sont remplies, soit entièrement annulée. Ce mécanisme évite qu’un échange ne soit exécuté partiellement.</p>"
+    },
+    {
+      "title": "Authenticity (fr : Authenticité)",
+      "letter": "a",
+      "slug": "authenticity-fr-authenticite",
+      "category": "general",
+      "html": "<p>La propriété de données stockées sur une blockchain qui permet de vérifier qu’elles sont authentiques, fiables et qu’elles n’ont pas été modifiées ou falsifiées.</p>"
+    },
+    {
+      "title": "Babbage",
+      "letter": "b",
+      "slug": "babbage",
+      "category": "network-protocol",
+      "html": "<p>Babbage est une ère du registre (<em>ledger era</em>) de Cardano, introduite lors de la mise à niveau Vasil en septembre 2022. Associée à la phase de développement Basho, elle a apporté plusieurs fonctionnalités importantes pour améliorer l’efficacité du réseau et l’expérience des développeurs, notamment les <em>reference inputs</em> (entrées de référence), les <em>inline datums</em> (données intégrées) et les <em>reference scripts</em> (scripts de référence).</p><p>Ces améliorations facilitent le développement de contrats intelligents et contribuent à l’évolutivité du réseau.</p><div class=\"gc-src\"><a class=\"gc-src__btn\" href=\"https://docs.cardano.org/about-cardano/evolution/eras-and-phases\" target=\"_blank\" rel=\"noopener noreferrer\">Development phases and eras — Cardano Docs</a></div>"
+    },
+    {
+      "title": "Babel Fees",
+      "letter": "b",
+      "slug": "babel-fees",
+      "category": "tokens-assets",
+      "html": "<p>Les Babel Fees désignent un mécanisme proposé qui permettrait aux utilisateurs de payer les frais de transaction avec des jetons natifs plutôt qu’avec de l’ada. Ce mécanisme n’est pas encore actif sur le réseau principal.</p><div class=\"gc-src\"><a class=\"gc-src__btn\" href=\"https://developers.cardano.org/docs/learn/core-concepts/fees/\" target=\"_blank\" rel=\"noopener noreferrer\">Frais de transaction — Cardano Developer Portal</a></div>"
+    },
+    {
+      "title": "Balance Wallet (fr : Portefeuille à solde global)",
+      "letter": "b",
+      "slug": "balance-wallet-fr-portefeuille-a-solde-global",
+      "category": "wallets-keys",
+      "html": "<p>Un Balance Wallet est un type de portefeuille Cardano qui affiche le solde total en ada ou en jetons sous la forme d’un seul montant, plutôt que d’afficher individuellement les sorties de transaction non dépensées (<em>UTXO</em>) qui composent ce solde. Il simplifie le modèle UTXO pour les utilisateurs en masquant les détails techniques de la structure des fonds sur la blockchain.</p>"
+    },
+    {
+      "title": "Basho",
+      "letter": "b",
+      "slug": "basho",
+      "category": "network-protocol",
+      "html": "<p>Basho est la quatrième phase de la feuille de route de développement de Cardano, axée sur l’évolutivité et l’optimisation. L’ère Basho a amélioré le débit et l’efficacité du réseau grâce à des fonctionnalités telles que le <em>sharding</em> et les chaînes latérales (<em>sidechains</em>). Son nom fait référence à Matsuo Bashō, poète japonais et maître du haïku.</p><div class=\"gc-src\"><a class=\"gc-src__btn\" href=\"https://docs.cardano.org/about-cardano/explore-more/relevant-research-papers\" target=\"_blank\" rel=\"noopener noreferrer\">Recherches et publications sur Basho — Cardano Docs</a></div>"
+    },
+    {
+      "title": "Bech32",
+      "letter": "b",
+      "slug": "bech32",
+      "category": "wallets-keys",
+      "html": "<p>Bech32 est un format d’encodage des adresses utilisé pour les adresses Cardano depuis le hard fork Shelley.</p><div class=\"gc-src\"><a class=\"gc-src__btn\" href=\"https://developers.cardano.org/docs/learn/core-concepts/addresses/\" target=\"_blank\" rel=\"noopener noreferrer\">Adresses — Cardano Developer Portal</a></div>"
+    },
+    {
+      "title": "Block (fr : Bloc)",
+      "letter": "b",
+      "slug": "block-fr-bloc",
+      "category": "network-protocol",
+      "html": "<p>Un bloc est une unité de données contenant un ensemble de transactions ajoutées à la blockchain.</p>"
+    },
+    {
+      "title": "Blockperf",
+      "letter": "b",
+      "slug": "blockperf",
+      "category": "network-protocol",
+      "html": "<p>Blockperf est un outil open source utilisé par les opérateurs de pools de staking pour mesurer la rapidité avec laquelle leurs nœuds reçoivent et transmettent les blocs nouvellement produits.</p>"
+    },
+    {
+      "title": "Bribery Attack (fr : Attaque par corruption)",
+      "letter": "b",
+      "slug": "bribery-attack-fr-attaque-par-corruption",
+      "category": "consensus-staking",
+      "html": "<p>Une attaque par corruption est une attaque dans laquelle un attaquant externe rémunère des validateurs pour les inciter à agir à l’encontre du protocole, par exemple en signant des blocs contradictoires ou en transmettant des clés dormantes.</p>"
+    },
+    {
+      "title": "Bridge (fr : Pont blockchain)",
+      "letter": "b",
+      "slug": "bridge-fr-pont-blockchain",
+      "category": "network-protocol",
+      "html": "<p>Un bridge est un protocole qui relie Cardano à une autre blockchain afin de permettre le transfert d’actifs ou de messages entre les deux réseaux. Il repose généralement sur une paire de contrats : l’un verrouille une valeur sur une blockchain et l’autre émet une représentation de cette valeur sur l’autre blockchain.</p>"
+    },
+    {
+      "title": "Byron",
+      "letter": "b",
+      "slug": "byron",
+      "category": "network-protocol",
+      "html": "<p>Byron est la première ère de développement de Cardano. Elle a établi les fondations du réseau.</p>"
+    },
+    {
+      "title": "Cardano",
+      "letter": "c",
+      "slug": "cardano",
+      "category": "general",
+      "html": "<p>Cardano est une blockchain de couche 1 publique et sans permission, fondée sur la recherche évaluée par les pairs.</p><div class=\"gc-src\"><a class=\"gc-src__btn\" href=\"https://cardano.org/glossary/cardano/\" target=\"_blank\" rel=\"noopener noreferrer\">Cardano — Glossaire officiel</a></div>"
+    },
+    {
+      "title": "CBDC (fr : Monnaie numérique de banque centrale)",
+      "letter": "c",
+      "slug": "cbdc-fr-monnaie-numerique-de-banque-centrale",
+      "category": "tokens-assets",
+      "html": "<p>Une CBDC est une forme numérique de monnaie fiduciaire émise et contrôlée par une banque centrale. Contrairement aux cryptomonnaies sans permission, les CBDC sont administrées de manière centralisée et leurs règles peuvent être modifiées par leur émetteur.</p>"
+    },
+    {
+      "title": "CEX (fr : Plateforme d’échange centralisée)",
+      "letter": "c",
+      "slug": "cex-fr-plateforme-d-echange-centralisee",
+      "category": "general",
+      "html": "<p>Une plateforme d’échange centralisée est une plateforme de négociation dans laquelle une entreprise conserve les actifs des utilisateurs et gère le carnet d’ordres en interne. Contrairement à une plateforme décentralisée (DEX), les utilisateurs ne détiennent pleinement leurs ada dans leur propre portefeuille qu’après les avoir retirés de la plateforme.</p>"
+    },
+    {
+      "title": "Chang",
+      "letter": "c",
+      "slug": "chang",
+      "category": "governance",
+      "html": "<p>Chang est le hard fork du 1er septembre 2024 qui a activé l’ère Conway et introduit la gouvernance sur chaîne de Cardano, conformément à la CIP-1694.</p>"
+    },
+    {
+      "title": "CIP (fr : Proposition d’amélioration de Cardano)",
+      "letter": "c",
+      "slug": "cip-fr-proposition-d-amelioration-de-cardano",
+      "category": "network-protocol",
+      "html": "<p>Une CIP est une proposition formelle décrivant une modification, une norme ou une fonctionnalité de Cardano. Les CIP constituent le mécanisme de référence permettant de débattre, d’affiner et d’adopter les règles et conventions de l’écosystème.</p><div class=\"gc-src\"><a class=\"gc-src__btn\" href=\"https://cips.cardano.org/\" target=\"_blank\" rel=\"noopener noreferrer\">Cardano Improvement Proposals (CIP)</a></div>"
+    },
+    {
+      "title": "CIP-1694",
+      "letter": "c",
+      "slug": "cip-1694",
+      "category": "governance",
+      "html": "<p>La CIP-1694 est la proposition d’amélioration de Cardano qui définit son système de gouvernance sur chaîne. Elle introduit notamment les DReps, le Comité constitutionnel et les actions de gouvernance formelles.</p><div class=\"gc-src\"><a class=\"gc-src__btn\" href=\"https://cips.cardano.org/cip/CIP-1694\" target=\"_blank\" rel=\"noopener noreferrer\">CIP-1694 — Spécification officielle</a></div>"
+    },
+    {
+      "title": "CIP-19",
+      "letter": "c",
+      "slug": "cip-19",
+      "category": "network-protocol",
+      "html": "<p>La CIP-19 est la spécification qui définit la structure binaire d’une adresse Cardano : le réseau auquel elle appartient, l’identifiant de paiement et, éventuellement, l’identifiant de staking.</p><div class=\"gc-src\"><a class=\"gc-src__btn\" href=\"https://cips.cardano.org/cip/CIP-19\" target=\"_blank\" rel=\"noopener noreferrer\">CIP-19 — Spécification officielle</a></div>"
+    },
+    {
+      "title": "CIP-20",
+      "letter": "c",
+      "slug": "cip-20",
+      "category": "network-protocol",
+      "html": "<p>La CIP-20 définit un emplacement standard permettant d’ajouter un court message lisible par un humain aux métadonnées d’une transaction, afin qu’un mémo, une note ou un commentaire soit conservé sur la chaîne avec le paiement.</p><div class=\"gc-src\"><a class=\"gc-src__btn\" href=\"https://cips.cardano.org/cip/CIP-20\" target=\"_blank\" rel=\"noopener noreferrer\">CIP-20 — Spécification officielle</a></div>"
+    },
+    {
+      "title": "CIP-25",
+      "letter": "c",
+      "slug": "cip-25",
+      "category": "tokens-assets",
+      "html": "<p>La CIP-25 définit une convention permettant aux portefeuilles et aux places de marché de lire le nom, l’image et les attributs d’un NFT à partir des métadonnées associées au jeton lors de sa création.</p><div class=\"gc-src\"><a class=\"gc-src__btn\" href=\"https://cips.cardano.org/cip/CIP-25\" target=\"_blank\" rel=\"noopener noreferrer\">CIP-25 — Spécification officielle</a></div>"
+    },
+    {
+      "title": "CIP-30",
+      "letter": "c",
+      "slug": "cip-30",
+      "category": "wallets-keys",
+      "html": "<p>La CIP-30 est la norme qui permet à un site web de communiquer avec un portefeuille installé comme extension de navigateur. Les applications décentralisées peuvent ainsi demander des adresses, solliciter la signature d’une transaction et soumettre celle-ci, sans avoir à manipuler directement les clés de l’utilisateur.</p><div class=\"gc-src\"><a class=\"gc-src__btn\" href=\"https://cips.cardano.org/cip/CIP-30\" target=\"_blank\" rel=\"noopener noreferrer\">CIP-30 — Spécification officielle</a></div>"
+    },
+    {
+      "title": "CIP-68",
+      "letter": "c",
+      "slug": "cip-68",
+      "category": "tokens-assets",
+      "html": "<p>La CIP-68 est une norme de métadonnées pour les jetons qui stocke leurs métadonnées dans un datum sur chaîne qu’un contrat intelligent peut lire et mettre à jour, contrairement aux métadonnées de transaction utilisées par la CIP-25, qui sont figées.</p><div class=\"gc-src\"><a class=\"gc-src__btn\" href=\"https://cips.cardano.org/cip/CIP-0068\" target=\"_blank\" rel=\"noopener noreferrer\">CIP-68 — Spécification officielle</a></div>"
+    },
+    {
+      "title": "CIP-8",
+      "letter": "c",
+      "slug": "cip-8",
+      "category": "network-protocol",
+      "html": "<p>La CIP-8 définit une norme permettant de signer des données arbitraires avec une clé de portefeuille. Elle peut servir à prouver le contrôle d’une adresse sans envoyer de transaction ni payer de frais.</p><div class=\"gc-src\"><a class=\"gc-src__btn\" href=\"https://cips.cardano.org/cip/CIP-0008\" target=\"_blank\" rel=\"noopener noreferrer\">CIP-8 — Spécification officielle</a></div>"
+    },
+    {
+      "title": "CIP-99",
+      "letter": "c",
+      "slug": "cip-99",
+      "category": "network-protocol",
+      "html": "<p>La CIP-99 définit un mécanisme standard de réclamation permettant aux nouveaux utilisateurs de recevoir de l’ada ou des jetons lors d’un événement physique en scannant un code QR avec leur portefeuille, en remplacement des portefeuilles papier.</p><div class=\"gc-src\"><a class=\"gc-src__btn\" href=\"https://cips.cardano.org/cip/CIP-0099\" target=\"_blank\" rel=\"noopener noreferrer\">CIP-99 — Spécification officielle</a></div>"
+    },
+    {
+      "title": "CIP-113 — Programmable token-like assets (fr : Actifs de type jeton programmables)",
+      "letter": "c",
+      "slug": "cip-113-—-programmable-token-like-assets-fr-actifs-de-type-jeton-programmables",
+      "category": "smart-contracts",
+      "html": "<p>La CIP-113 propose un standard pour les jetons programmables sur Cardano. Ces jetons nécessitent l’exécution réussie d’un script pour changer de propriétaire, ce qui permet d’appliquer des règles aux transferts, notamment des restrictions de transfert ou des mécanismes de gel et de saisie. Le standard utilise les fonctionnalités existantes de Cardano et ne nécessite pas de hard fork.</p><div class=\"gc-src\"><a class=\"gc-src__btn\" href=\"https://cips.cardano.org/cip/CIP-0113\" target=\"_blank\" rel=\"noopener noreferrer\">CIP-113 — Spécification officielle</a></div><div class=\"gc-src\"><a class=\"gc-src__btn\" href=\"https://developers.cardano.org/docs/developers/curriculum/native-tokens/programmable-tokens/\" target=\"_blank\" rel=\"noopener noreferrer\">Programmable Tokens — Cardano Developer Portal</a></div>"
+    },
+    {
+      "title": "Collateral (fr : Garantie)",
+      "letter": "c",
+      "slug": "collateral-fr-garantie",
+      "category": "smart-contracts",
+      "html": "<p>Le collateral est un montant en ada qu’un portefeuille met de côté lors de la soumission d’une transaction Plutus. Cette garantie n’est perdue que si la validation du script sur la chaîne échoue.</p>"
+    },
+    {
+      "title": "Collateral Percentage (fr : Pourcentage de garantie)",
+      "letter": "c",
+      "slug": "collateral-percentage-fr-pourcentage-de-garantie",
+      "category": "smart-contracts",
+      "html": "<p>Le Collateral Percentage est le paramètre du protocole qui détermine le montant de garantie à fournir par rapport aux frais d’une transaction Plutus. Sur le réseau principal, sa valeur est actuellement de 150, soit 150 % des frais.</p>"
+    },
+    {
+      "title": "Committee Minimum Size (fr : Taille minimale du comité)",
+      "letter": "c",
+      "slug": "committee-minimum-size-fr-taille-minimale-du-comite",
+      "category": "governance",
+      "html": "<p>Le Committee Minimum Size est le paramètre du protocole qui fixe le nombre minimal de membres du Comité constitutionnel devant occuper un siège pour que le comité soit opérationnel. Si le nombre de membres passe sous ce seuil, toute action de gouvernance nécessitant l’approbation du comité est bloquée jusqu’à ce que les sièges vacants soient pourvus.</p>"
+    },
+    {
+      "title": "Computation Layer (fr : Couche de calcul)",
+      "letter": "c",
+      "slug": "computation-layer-fr-couche-de-calcul",
+      "category": "smart-contracts",
+      "html": "<p>La Computation Layer est un ancien concept architectural de la feuille de route initiale de Cardano, qui décrivait l’exécution des contrats intelligents comme une couche distincte de la couche de règlement.</p>"
+    },
+    {
+      "title": "Constitution (fr : Constitution de Cardano)",
+      "letter": "c",
+      "slug": "constitution-fr-constitution-de-cardano",
+      "category": "governance",
+      "html": "<p>La Constitution est le document qui définit les principes de gouvernance, les règles et les garde-fous de Cardano. Elle a été ratifiée sur chaîne en février 2025 et peut être modifiée au moyen d’actions de gouvernance portant sur sa mise à jour.</p>"
+    },
+    {
+      "title": "Constitutional Committee (fr : Comité constitutionnel)",
+      "letter": "c",
+      "slug": "constitutional-committee-fr-comite-constitutionnel",
+      "category": "governance",
+      "html": "<p>Le Comité constitutionnel est l’organe élu composé de sept membres qui vérifie la conformité des actions de gouvernance à la Constitution de Cardano. Il constitue un mécanisme de contrôle aux côtés des DReps et des opérateurs de pools de staking.</p>"
+    },
+    {
+      "title": "Controlled Stake (fr : Stake contrôlé)",
+      "letter": "c",
+      "slug": "controlled-stake-fr-stake-controle",
+      "category": "consensus-staking",
+      "html": "<p>Le Controlled Stake désigne la quantité totale d’ada associée à un pool de staking, en combinant la mise personnelle de l’opérateur (<em>pledge</em>) et l’ensemble des délégations reçues.</p>"
+    },
+    {
+      "title": "Conway Era (fr : Ère Conway)",
+      "letter": "c",
+      "slug": "conway-era-fr-ere-conway",
+      "category": "governance",
+      "html": "<p>L’ère Conway est l’ère du registre Cardano qui a introduit la gouvernance sur chaîne sur le réseau principal, conformément à la CIP-1694.</p>"
+    },
+    {
+      "title": "d parameter (fr : Paramètre d)",
+      "letter": "d",
+      "slug": "d-parameter-fr-parametre-d",
+      "category": "consensus-staking",
+      "html": "<p>Le paramètre de protocole utilisé pendant l’ère Shelley qui contrôlait la proportion de blocs produits par les nœuds de genèse fédérés par rapport aux pools de staking communautaires.</p>"
+    },
+    {
+      "title": "DApp (fr : Application décentralisée)",
+      "letter": "d",
+      "slug": "dapp-fr-application-decentralisee",
+      "category": "smart-contracts",
+      "html": "<p>Une application dont la logique principale s’exécute sous forme de code sur la chaîne, plutôt que sur les serveurs d’une seule entreprise, de sorte que ses règles continuent de fonctionner même si un opérateur cesse ses activités.</p>"
+    },
+    {
+      "title": "Datum (fr : Donnée associée à un UTxO)",
+      "letter": "d",
+      "slug": "datum-fr-donnee-associee-a-un-utxo",
+      "category": "smart-contracts",
+      "html": "<p>Une donnée attachée à un UTxO qu’un contrat intelligent peut lire lorsqu’il détermine si cet UTxO peut être dépensé.</p><div class=\"gc-src\"><a class=\"gc-src__btn\" href=\"https://docs.cardano.org/about-cardano/learn/transaction-costs-determinism\" target=\"_blank\" rel=\"noopener noreferrer\">Transaction costs and determinism — Cardano Docs</a></div>"
+    },
+    {
+      "title": "Delegation (fr : Délégation)",
+      "letter": "d",
+      "slug": "delegation-fr-delegation",
+      "category": "consensus-staking",
+      "html": "<p>Le processus consistant à attribuer son stake à un pool de staking sans transférer ses ada.</p><div class=\"gc-src\"><a class=\"gc-src__btn\" href=\"https://docs.cardano.org/about-cardano/learn/delegation\" target=\"_blank\" rel=\"noopener noreferrer\">Delegation — Cardano Docs</a></div>"
+    },
+    {
+      "title": "Determinism (fr : Déterminisme)",
+      "letter": "d",
+      "slug": "determinism-fr-determinisme",
+      "category": "general",
+      "html": "<p>La propriété selon laquelle un calcul produit toujours les mêmes résultats lorsqu’il reçoit les mêmes entrées.</p><div class=\"gc-src\"><a class=\"gc-src__btn\" href=\"https://docs.cardano.org/about-cardano/learn/transaction-costs-determinism\" target=\"_blank\" rel=\"noopener noreferrer\">Transaction costs and determinism — Cardano Docs</a></div>"
+    },
+    {
+      "title": "DEX (fr : Plateforme d’échange décentralisée)",
+      "letter": "d",
+      "slug": "dex-fr-plateforme-d-echange-decentralisee",
+      "category": "general",
+      "html": "<p>Une plateforme d’échange où les échanges sont exécutés par du code sur la chaîne plutôt que par un opérateur central. Les utilisateurs échangent directement depuis leur portefeuille et ne confient pas la garde de leurs fonds à un opérateur central.</p>"
+    },
+    {
+      "title": "DID (fr : Identifiant décentralisé)",
+      "letter": "d",
+      "slug": "did-fr-identifiant-decentralise",
+      "category": "general",
+      "html": "<p>Un identifiant que l’on crée et contrôle soi-même, sans registre central ; l’enregistrement permettant de résoudre cet identifiant se trouve sur une blockchain ou un autre système décentralisé plutôt que dans la base de données d’une seule entreprise.</p>"
+    },
+    {
+      "title": "Dijkstra",
+      "letter": "d",
+      "slug": "dijkstra",
+      "category": "network-protocol",
+      "html": "<p>La prochaine ère du registre Cardano et le nom d’un hard fork, en hommage à Edsger Dijkstra. Sa première phase, ciblée pour la fin de 2026 selon le glossaire officiel, doit apporter Linear Leios et les transactions imbriquées (<em>nested transactions</em>). Une deuxième phase doit ajouter Peras.</p>"
+    },
+    {
+      "title": "Djed",
+      "letter": "d",
+      "slug": "djed",
+      "category": "tokens-assets",
+      "html": "<p>Un protocole de stablecoin surcollatéralisé par des cryptomonnaies sur Cardano, dont l’ancrage au dollar américain est maintenu de manière algorithmique à partir d’une réserve en ada, avec SHEN comme jeton de réserve, plutôt qu’au moyen de réserves en monnaie fiduciaire.</p>"
+    },
+    {
+      "title": "DRep (fr : Représentant délégué)",
+      "letter": "d",
+      "slug": "drep-fr-representant-delegue",
+      "category": "governance",
+      "html": "<p>Un représentant auquel les détenteurs d’ada délèguent leur pouvoir de vote sur la chaîne, afin qu’il vote en leur nom sur les actions de gouvernance.</p><div class=\"gc-src\"><a class=\"gc-src__btn\" href=\"https://cips.cardano.org/cip/CIP-1694\" target=\"_blank\" rel=\"noopener noreferrer\">CIP-1694 — Spécification officielle</a></div>"
+    },
+    {
+      "title": "DRep Activity Period (fr : Période d’activité des DReps)",
+      "letter": "d",
+      "slug": "drep-activity-period-fr-periode-d-activite-des-dreps",
+      "category": "governance",
+      "html": "<p>Le paramètre du protocole qui définit le nombre d’époques pendant lesquelles un DRep peut rester sans voter ou mettre à jour son inscription avant d’être considéré comme inactif. Son pouvoir de vote délégué cesse alors d’être comptabilisé jusqu’à ce qu’il redevienne actif.</p>"
+    },
+    {
+      "title": "DYOR (fr : Faites vos propres recherches)",
+      "letter": "d",
+      "slug": "dyor-fr-faites-vos-propres-recherches",
+      "category": "general",
+      "html": "<p>Expression utilisée dans les communautés crypto pour rappeler aux personnes d’examiner elles-mêmes un projet, une équipe ou une affirmation avant d’investir ou d’agir, plutôt que de se fier uniquement aux arguments de quelqu’un d’autre.</p>"
+    },
+    {
+      "title": "Eclipse Attack (fr : Attaque par éclipse)",
+      "letter": "e",
+      "slug": "eclipse-attack-fr-attaque-par-eclipse",
+      "category": "consensus-staking",
+      "html": "<p>Une attaque réseau dans laquelle un nœud est isolé de ses pairs honnêtes et connecté uniquement à des nœuds contrôlés par un attaquant.</p>"
+    },
+    {
+      "title": "Edinburgh Decentralisation Index (EDI) (fr : Indice de décentralisation d’Édimbourg)",
+      "letter": "e",
+      "slug": "edinburgh-decentralisation-index-edi-fr-indice-de-decentralisation-d-edimbourg",
+      "category": "general",
+      "html": "<p>Un cadre de recherche développé par Input Output et l’Université d’Édimbourg pour mesurer et comparer la décentralisation des systèmes blockchain.</p>"
+    },
+    {
+      "title": "Epoch (fr : Époque)",
+      "letter": "e",
+      "slug": "epoch-fr-epoque",
+      "category": "consensus-staking",
+      "html": "<p>Une période de cinq jours sur le réseau Cardano, pendant laquelle la distribution du stake est fixée et les récompenses sont calculées.</p><div class=\"gc-src\"><a class=\"gc-src__btn\" href=\"https://docs.cardano.org/about-cardano/learn/pledging-rewards\" target=\"_blank\" rel=\"noopener noreferrer\">Pledging and rewards — Cardano Docs</a></div>"
+    },
+    {
+      "title": "eUTXO (fr : Modèle UTXO étendu)",
+      "letter": "e",
+      "slug": "eutxo-fr-modele-utxo-etendu",
+      "category": "smart-contracts",
+      "html": "<p>L’extension par Cardano du modèle comptable UTXO. Chaque sortie peut contenir un datum et une logique de script, ce qui permet aux contrats intelligents d’exprimer des règles sans utiliser l’état mutable partagé des blockchains fondées sur un modèle de comptes.</p><div class=\"gc-src\"><a class=\"gc-src__btn\" href=\"https://docs.cardano.org/about-cardano/learn/eutxo-explainer\" target=\"_blank\" rel=\"noopener noreferrer\">EUTXO expliqué — Cardano Docs</a></div>"
+    },
+    {
+      "title": "FATF Travel Rule (fr : Règle de voyage du GAFI)",
+      "letter": "f",
+      "slug": "fatf-travel-rule-fr-regle-de-voyage-du-gafi",
+      "category": "general",
+      "html": "<p>La règle de voyage du GAFI est une exigence mondiale de lutte contre le blanchiment d’argent émise par le Groupe d’action financière (GAFI). Elle oblige les prestataires de services sur actifs virtuels (PSAV), tels que les plateformes d’échange et les dépositaires, à collecter et à partager des informations permettant d’identifier l’expéditeur et le destinataire lors de transferts d’actifs numériques dépassant certains seuils. Toutefois, cette règle ne concerne pas uniquement les actifs numériques, mais s’applique à tous les intermédiaires financiers. Elle trouve son origine dans les réglementations traditionnelles relatives aux virements bancaires.</p><div class=\"gc-src\"><a class=\"gc-src__btn\" href=\"https://www.fatf-gafi.org/\" target=\"_blank\" rel=\"noopener noreferrer\">Groupe d’action financière (GAFI) — Site officiel</a></div>"
+    },
+    {
+      "title": "Faucet (fr : Robinet de distribution de jetons)",
+      "letter": "f",
+      "slug": "faucet-fr-robinet-de-distribution-de-jetons",
+      "category": "tokens-assets",
+      "html": "<p>Un faucet est un service qui fournit aux utilisateurs de petites quantités de jetons, généralement gratuitement, afin qu’ils puissent tester un réseau blockchain ou expérimenter avec celui-ci. Sur Cardano, les faucets servent principalement à distribuer de l’ada de test (<em>tADA</em>) sur les réseaux de test, permettant aux développeurs et aux utilisateurs d’essayer des transactions, des contrats intelligents ou des applications sans utiliser de véritables ada.</p><div class=\"gc-src\"><a class=\"gc-src__btn\" href=\"https://docs.cardano.org/cardano-testnet/tools/faucet/\" target=\"_blank\" rel=\"noopener noreferrer\">Testnets Faucet — Cardano Docs</a></div>"
+    },
+    {
+      "title": "Fee (fr : Frais de transaction)",
+      "letter": "f",
+      "slug": "fee-fr-frais-de-transaction",
+      "category": "network-protocol",
+      "html": "<p>Une petite quantité de jetons payée pour traiter une transaction sur une blockchain. Sur Cardano, les frais de transaction sont nécessaires pour prévenir le spam, rémunérer les producteurs de blocs et contribuer à la trésorerie du réseau. Leur montant exact est déterminé par les paramètres du protocole et la taille de la transaction.</p><div class=\"gc-src\"><a class=\"gc-src__btn\" href=\"https://developers.cardano.org/docs/learn/core-concepts/fees/\" target=\"_blank\" rel=\"noopener noreferrer\">Transaction Fees — Cardano Developer Portal</a></div>"
+    },
+    {
+      "title": "Fork (fr : Fourche)",
+      "letter": "f",
+      "slug": "fork-fr-fourche",
+      "category": "network-protocol",
+      "html": "<p>Une modification du protocole d’une blockchain qui entraîne une divergence par rapport aux règles existantes. Les forks peuvent être des <em>soft forks</em>, qui introduisent des mises à jour rétrocompatibles, ou des <em>hard forks</em>, qui nécessitent que tous les participants effectuent une mise à niveau pour rester sur la même chaîne.</p><div class=\"gc-src\"><a class=\"gc-src__btn\" href=\"https://docs.cardano.org/about-cardano/evolution/about-hard-forks\" target=\"_blank\" rel=\"noopener noreferrer\">About hard forks — Cardano Docs</a></div>"
+    },
+    {
+      "title": "Full Node (fr : Nœud complet)",
+      "letter": "f",
+      "slug": "full-node-fr-nœud-complet",
+      "category": "network-protocol",
+      "html": "<p>Un logiciel qui télécharge et vérifie l’intégralité de la blockchain, c’est-à-dire le registre complet depuis le premier bloc, en s’assurant que toutes les transactions et tous les blocs respectent les règles du protocole. Sur Cardano, l’exploitation d’un nœud complet actif contribue à la décentralisation et permet aux utilisateurs de valider le registre de manière indépendante, sans dépendre de tiers.</p>"
+    },
+    {
+      "title": "Fungible Token (fr : Jeton fongible)",
+      "letter": "f",
+      "slug": "fungible-token-fr-jeton-fongible",
+      "category": "tokens-assets",
+      "html": "<p>Une unité de valeur numérique interchangeable avec toute autre unité du même type et de la même dénomination. Sur Cardano, l’ada et les autres jetons natifs peuvent être considérés comme fongibles lorsque chaque unité d’un jeton est fonctionnellement identique.</p><div class=\"gc-src\"><a class=\"gc-src__btn\" href=\"https://docs.cardano.org/native-tokens/getting-started/\" target=\"_blank\" rel=\"noopener noreferrer\">Mint a Fungible Token — Cardano Docs</a></div>"
+    },
+    {
+      "title": "Genesis Block (fr : Bloc de genèse)",
+      "letter": "g",
+      "slug": "genesis-block-fr-bloc-de-genese",
+      "category": "network-protocol",
+      "html": "<p>Le tout premier bloc d’une blockchain, qui sert de point de départ au registre. Bien qu’il ne s’agisse pas techniquement d’un bloc, le terme est parfois également utilisé pour désigner la configuration initiale d’une blockchain.</p>"
+    },
+    {
+      "title": "Genesis Keys (fr : Clés de genèse)",
+      "letter": "g",
+      "slug": "genesis-keys-fr-cles-de-genese",
+      "category": "wallets-keys",
+      "html": "<p>Les clés de genèse sont des clés cryptographiques spéciales créées au lancement de Cardano et confiées aux entités pionnières Input Output Global (IOG, anciennement IOHK), à la Cardano Foundation et à EMURGO. Elles ont été utilisées pour gérer le réseau pendant sa phase fédérée initiale, avant que la production des blocs et la gouvernance ne soient progressivement décentralisées et réparties au sein de la communauté. Avec la transition vers une gouvernance entièrement sur chaîne, introduite pendant l’ère Conway, les clés de genèse ne sont plus fonctionnelles dans le protocole et ont effectivement cessé d’exister.</p><div class=\"gc-src\"><a class=\"gc-src__btn\" href=\"https://cardanofoundation.org/blog/chang-upgrade-decentralized-governance\" target=\"_blank\" rel=\"noopener noreferrer\">Chang Upgrade: Taking Cardano into Decentralized Governance — Cardano Foundation</a></div>"
+    },
+    {
+      "title": "Goguen",
+      "letter": "g",
+      "slug": "goguen",
+      "category": "smart-contracts",
+      "html": "<p>La troisième phase de la feuille de route de développement de Cardano, axée sur l’introduction des fonctionnalités de contrats intelligents sur la blockchain. Goguen a été mise en œuvre au moyen des mises à niveau Allegra, Mary et Alonzo, qui ont ensemble permis les jetons natifs, la prise en charge de plusieurs actifs et le déploiement d’applications décentralisées (dApps). Durant cette ère, Cardano a également introduit Plutus, son langage spécialement conçu pour les contrats intelligents.</p>"
+    },
+    {
+      "title": "Governance (fr : Gouvernance)",
+      "letter": "g",
+      "slug": "governance-fr-gouvernance",
+      "category": "governance",
+      "html": "<p>Dans le contexte des blockchains, la gouvernance désigne les processus et les règles selon lesquels sont prises les décisions concernant les mises à niveau du protocole, les modifications des paramètres et l’allocation des ressources partagées. Cardano est passé à un système de gouvernance entièrement sur chaîne pendant l’ère Conway, défini par la CIP-1694 et mis en œuvre au moyen du hard fork Chang. Dans ce système, les détenteurs d’ada participent directement, individuellement ou par l’intermédiaire de représentants délégués, à l’orientation future du réseau.</p><div class=\"gc-src\"><a class=\"gc-src__btn\" href=\"https://cips.cardano.org/cip/CIP-1694\" target=\"_blank\" rel=\"noopener noreferrer\">CIP-1694 — Spécification officielle de la gouvernance Cardano</a></div>"
+    },
+    {
+      "title": "Governance Action (fr : Action de gouvernance)",
+      "letter": "g",
+      "slug": "governance-action-fr-action-de-gouvernance",
+      "category": "governance",
+      "html": "<p>Une proposition formelle soumise sur la chaîne pour que la communauté Cardano puisse voter.</p><div class=\"gc-src\"><a class=\"gc-src__btn\" href=\"https://cips.cardano.org/cip/CIP-1694\" target=\"_blank\" rel=\"noopener noreferrer\">CIP-1694 — Spécification officielle de la gouvernance Cardano</a></div>"
+    },
+    {
+      "title": "Governance Action Lifetime (fr : Durée de validité d’une action de gouvernance)",
+      "letter": "g",
+      "slug": "governance-action-lifetime-fr-duree-de-validite-d-une-action-de-gouvernance",
+      "category": "governance",
+      "html": "<p>Le paramètre du protocole qui limite le nombre d’époques pendant lesquelles une action de gouvernance peut rester ouverte au vote avant d’expirer sans avoir été résolue.</p><div class=\"gc-src\"><a class=\"gc-src__btn\" href=\"https://cips.cardano.org/cip/CIP-1694\" target=\"_blank\" rel=\"noopener noreferrer\">CIP-1694 — Spécification officielle de la gouvernance Cardano</a></div>"
+    },
+    {
+      "title": "Governance Tools (fr : Outils de gouvernance)",
+      "letter": "g",
+      "slug": "governance-tools-fr-outils-de-gouvernance",
+      "category": "governance",
+      "html": "<p>Des applications qui rendent la gouvernance de Cardano définie par la CIP-1694 utilisable par la communauté. Elles permettent notamment de s’inscrire comme représentant délégué (DRep), de déléguer son pouvoir de vote, de consulter les propositions en cours et de voter.</p><div class=\"gc-src\"><a class=\"gc-src__btn\" href=\"https://cips.cardano.org/cip/CIP-1694\" target=\"_blank\" rel=\"noopener noreferrer\">CIP-1694 — Spécification officielle de la gouvernance Cardano</a></div>"
+    },
+    {
+      "title": "Grinding Attack (fr : Attaque par manipulation de l’aléatoire)",
+      "letter": "g",
+      "slug": "grinding-attack-fr-attaque-par-manipulation-de-l-aleatoire",
+      "category": "consensus-staking",
+      "html": "<p>Une attaque visant le mécanisme d’aléatoire utilisé pour sélectionner les producteurs de blocs dans un système de preuve d’enjeu (<em>Proof of Stake</em>). L’attaquant cherche à biaiser le tirage en sa faveur.</p>"
+    },
+    {
+      "title": "Hard Fork (fr : Fourche dure)",
+      "letter": "h",
+      "slug": "hard-fork-fr-fourche-dure",
+      "category": "network-protocol",
+      "html": "<p>Une mise à niveau du protocole d’une blockchain qui n’est pas rétrocompatible et qui exige que les participants adoptent les nouvelles règles pour rester sur la même chaîne. Si aucun consensus n’est atteint, un hard fork peut entraîner une séparation permanente en plusieurs blockchains distinctes, comme cela s’est produit avec Bitcoin et Bitcoin Cash.</p><div class=\"gc-src\"><a class=\"gc-src__btn\" href=\"https://docs.cardano.org/about-cardano/evolution/about-hard-forks\" target=\"_blank\" rel=\"noopener noreferrer\">About hard forks — Cardano Docs</a></div>"
+    },
+    {
+      "title": "Hard Fork Combinator (fr : Combinateur de fourche dure)",
+      "letter": "h",
+      "slug": "hard-fork-combinator-fr-combinateur-de-fourche-dure",
+      "category": "network-protocol",
+      "html": "<p>Le Hard Fork Combinator est le mécanisme propre à Cardano qui permet de combiner plusieurs versions du protocole au sein d’une seule blockchain. Il permet des transitions fluides entre les ères, par exemple de Byron à Shelley ou de Shelley à Allegra, sans provoquer de fragmentation du réseau ni d’interruption.</p>"
+    },
+    {
+      "title": "Hard Fork Initiation (fr : Initiation d’une fourche dure)",
+      "letter": "h",
+      "slug": "hard-fork-initiation-fr-initiation-d-une-fourche-dure",
+      "category": "network-protocol",
+      "html": "<p>Un type d’action de gouvernance défini par la CIP-1694, qui programme et déclenche une fourche dure de Cardano au moyen d’un vote sur la chaîne.</p><div class=\"gc-src\"><a class=\"gc-src__btn\" href=\"https://cips.cardano.org/cip/CIP-1694\" target=\"_blank\" rel=\"noopener noreferrer\">CIP-1694 — Spécification officielle</a></div>"
+    },
+    {
+      "title": "Hash Function (fr : Fonction de hachage)",
+      "letter": "h",
+      "slug": "hash-function-fr-fonction-de-hachage",
+      "category": "general",
+      "html": "<p>Un algorithme cryptographique qui convertit des données d’entrée de taille quelconque en une sortie de taille fixe appelée <em>hash</em> (empreinte). Dans les blockchains, les fonctions de hachage servent à sécuriser les données, à relier les blocs entre eux et à vérifier les transactions. Même de petites modifications des données d’entrée produisent des empreintes très différentes. Cardano utilise principalement les fonctions de hachage cryptographiques Blake2b et SHA-256.</p>"
+    },
+    {
+      "title": "Hashing (fr : Hachage)",
+      "letter": "h",
+      "slug": "hashing-fr-hachage",
+      "category": "general",
+      "html": "<p>Le processus consistant à appliquer une fonction de hachage cryptographique à des données d’entrée pour générer une sortie de taille fixe appelée <em>hash</em> (empreinte). Dans les blockchains, le hachage sécurise les transactions et les blocs, garantit l’intégrité des données et rend pratiquement impossible la modification de données passées sans que celle-ci soit détectée.</p>"
+    },
+    {
+      "title": "Hash Rate (fr : Taux de hachage)",
+      "letter": "h",
+      "slug": "hash-rate-fr-taux-de-hachage",
+      "category": "general",
+      "html": "<p>La mesure de la puissance de calcul utilisée dans les blockchains fondées sur la preuve de travail (<em>Proof of Work</em>, PoW), comme Bitcoin, pour résoudre des énigmes cryptographiques et sécuriser le réseau.</p>"
+    },
+    {
+      "title": "Haskell",
+      "letter": "h",
+      "slug": "haskell",
+      "category": "smart-contracts",
+      "html": "<p>Un langage de programmation fonctionnel reconnu pour son système de types fort et son approche fondée sur des principes mathématiques. Le protocole central de Cardano est largement implémenté en Haskell afin de favoriser un haut niveau d’assurance et de fiabilité dans les applications blockchain.</p><div class=\"gc-src\"><a class=\"gc-src__btn\" href=\"https://www.haskell.org/\" target=\"_blank\" rel=\"noopener noreferrer\">Site officiel de Haskell</a></div>"
+    },
+    {
+      "title": "Hierarchical Deterministic Wallets (HD Wallets) (fr : Portefeuilles hiérarchiques déterministes)",
+      "letter": "h",
+      "slug": "hierarchical-deterministic-wallets-hd-wallets-fr-portefeuilles-hierarchiques-deterministes",
+      "category": "wallets-keys",
+      "html": "<p>Les portefeuilles hiérarchiques déterministes génèrent un arbre structuré de clés privées et publiques à partir d’une seule phrase de récupération. Cela permet aux utilisateurs de gérer plusieurs adresses de manière sécurisée et pratique, puisque toutes les clés et adresses peuvent être restaurées à partir de la phrase de récupération d’origine.</p>"
+    },
+    {
+      "title": "Hot Wallet (fr : Portefeuille connecté)",
+      "letter": "h",
+      "slug": "hot-wallet-fr-portefeuille-connecte",
+      "category": "wallets-keys",
+      "html": "<p>Un portefeuille connecté à Internet, qui facilite les transactions fréquentes, mais qui est davantage exposé aux risques de sécurité. Les portefeuilles mobiles, de bureau ou accessibles sur le Web qui conservent des clés privées dans un environnement connecté en sont des exemples.</p>"
+    },
+    {
+      "title": "Hybrid Blockchain (fr : Blockchain hybride)",
+      "letter": "h",
+      "slug": "hybrid-blockchain-fr-blockchain-hybride",
+      "category": "general",
+      "html": "<p>Une blockchain hybride combine des éléments de blockchains publiques sans permission et de blockchains privées avec permission. Elle permet de rendre certaines données ou fonctions ouvertes et transparentes, tout en réservant d’autres éléments aux participants autorisés. Ce modèle est souvent utilisé pour concilier transparence, efficacité et confidentialité dans les cas d’usage des entreprises ou des consortiums.</p>"
+    },
+    {
+      "title": "Hydra",
+      "letter": "h",
+      "slug": "hydra",
+      "category": "smart-contracts",
+      "html": "<p>Une solution de mise à l’échelle de couche 2 conçue pour Cardano, qui vise à augmenter le débit et l’efficacité en traitant les transactions hors chaîne dans des unités appelées <em>Hydra Heads</em>. Ces têtes Hydra permettent des transactions rapides et peu coûteuses, tout en assurant le règlement final sur la chaîne principale de Cardano. Elles peuvent notamment prendre en charge des applications telles que les micropaiements et les interactions en temps réel.</p><div class=\"gc-src\"><a class=\"gc-src__btn\" href=\"https://hydra.family/head-protocol/\" target=\"_blank\" rel=\"noopener noreferrer\">Documentation officielle du protocole Hydra</a></div>"
+    },
+    {
+      "title": "Hydra Head (fr : Tête Hydra)",
+      "letter": "h",
+      "slug": "hydra-head-fr-tete-hydra",
+      "category": "smart-contracts",
+      "html": "<p>Une tête Hydra est un mini-registre hors chaîne du protocole de couche 2 Hydra de Cardano, dans lequel un petit groupe de participants peut traiter des transactions rapidement et à faible coût. L’état final de la tête peut ensuite être réglé de manière sécurisée sur la chaîne principale de Cardano.</p><div class=\"gc-src\"><a class=\"gc-src__btn\" href=\"https://hydra.family/head-protocol/\" target=\"_blank\" rel=\"noopener noreferrer\">Hydra Head Protocol — Documentation officielle</a></div>"
+    },
+    {
+      "title": "Icarus",
+      "letter": "i",
+      "slug": "icarus",
+      "category": "general",
+      "html": "<p>Icarus est une implémentation de référence d’un portefeuille Cardano léger, développée par Input Output.</p>"
+    },
+    {
+      "title": "ICO (Initial Coin Offering) (fr : Offre initiale de jetons)",
+      "letter": "i",
+      "slug": "ico-initial-coin-offering-fr-offre-initiale-de-jetons",
+      "category": "tokens-assets",
+      "html": "<p>Une méthode de collecte de fonds dans laquelle de nouveaux projets blockchain vendent des jetons à leurs premiers soutiens, généralement pour financer leur développement. Les ICO étaient particulièrement courantes pendant les années de forte activité de 2017 et 2018, lorsque de nombreux projets les utilisaient pour lever des capitaux importants.</p>"
+    },
+    {
+      "title": "Info Action (fr : Action informative)",
+      "letter": "i",
+      "slug": "info-action-fr-action-informative",
+      "category": "governance",
+      "html": "<p>Un type d’action de gouvernance défini par la CIP-1694, qui enregistre le vote de la communauté sur une information sans imposer de changement sur la chaîne.</p><div class=\"gc-src\"><a class=\"gc-src__btn\" href=\"https://cips.cardano.org/cip/CIP-1694\" target=\"_blank\" rel=\"noopener noreferrer\">CIP-1694 — Spécification officielle de la gouvernance Cardano</a></div>"
+    },
+    {
+      "title": "Incentive (fr : Incitation)",
+      "letter": "i",
+      "slug": "incentive-fr-incitation",
+      "category": "consensus-staking",
+      "html": "<p>Dans les blockchains, une incitation est une récompense ou un mécanisme conçu pour motiver les participants à agir de manière à soutenir la sécurité et le fonctionnement du réseau. Sur Cardano, les incitations sont principalement fournies sous forme de récompenses de staking, qui encouragent les détenteurs d’ada et les opérateurs de pools de staking à contribuer à la production des blocs et à la décentralisation.</p><div class=\"gc-src\"><a class=\"gc-src__btn\" href=\"https://docs.cardano.org/about-cardano/learn/pledging-rewards\" target=\"_blank\" rel=\"noopener noreferrer\">Pledging and rewards — Cardano Docs</a></div>"
+    },
+    {
+      "title": "Incentivised Testnet (ITN) (fr : Réseau de test incitatif)",
+      "letter": "i",
+      "slug": "incentivised-testnet-itn-fr-reseau-de-test-incitatif",
+      "category": "network-protocol",
+      "html": "<p>Désigne une phase spéciale du développement de Cardano, lancée à la fin de 2019, pour tester le staking et la délégation avant leur déploiement sur le réseau principal. L’ITN a fourni des informations essentielles sur les performances des pools de staking, la distribution des récompenses et la participation de la communauté, qui ont directement contribué à la conception et aux paramètres de l’ère Shelley de Cardano.</p>"
+    },
+    {
+      "title": "Infrastructure (Cardano) (fr : Infrastructure de Cardano)",
+      "letter": "i",
+      "slug": "infrastructure-cardano-fr-infrastructure-de-cardano",
+      "category": "network-protocol",
+      "html": "<p>L’infrastructure de Cardano désigne les composants techniques et organisationnels fondamentaux qui permettent à la blockchain de fonctionner de manière sécurisée et fiable. Elle comprend le logiciel du nœud Cardano, l’architecture en couches du protocole — réseau, consensus, règlement et scripts — ainsi que le réseau mondial d’opérateurs de pools de staking qui maintiennent la décentralisation et la résilience.</p>"
+    },
+    {
+      "title": "Initial Coin Offering (ICO) (fr : Offre initiale de jetons)",
+      "letter": "i",
+      "slug": "initial-coin-offering-ico-fr-offre-initiale-de-jetons",
+      "category": "tokens-assets",
+      "html": "<p>Une méthode de collecte de fonds dans laquelle de nouveaux projets blockchain vendent des jetons à leurs premiers soutiens, généralement pour financer leur développement. Les ICO étaient particulièrement courantes pendant les années de forte activité de 2017 et 2018, lorsque de nombreux projets les utilisaient pour lever des capitaux importants.</p>"
+    },
+    {
+      "title": "Initial Tree Offering (ITO) (fr : Offre initiale d’arbres)",
+      "letter": "i",
+      "slug": "initial-tree-offering-ito-fr-offre-initiale-d-arbres",
+      "category": "tokens-assets",
+      "html": "<p>L’Initial Tree Offering (ITO) a été introduite sur Cardano dans le cadre de l’initiative Cardano Forest, en collaboration avec veritree. Dans ce modèle, les participants recevaient des jetons fongibles représentant les arbres qu’ils avaient financés. Ces jetons pouvaient ensuite être échangés contre des NFT servant de preuves permanentes, enregistrées sur la chaîne, du don associé à chaque arbre spécifique.</p>"
+    },
+    {
+      "title": "Input Endorsers (fr : Approbateurs d’entrées)",
+      "letter": "i",
+      "slug": "input-endorsers-fr-approbateurs-d-entrees",
+      "category": "network-protocol",
+      "html": "<p>Une fonctionnalité d’évolutivité du protocole de consensus de Cardano qui permet de prévalider les transactions avant leur ajout aux blocs. En séparant la validation des transactions de la production des blocs, les Input Endorsers augmentent le débit et améliorent l’efficacité globale du réseau.</p>"
+    },
+    {
+      "title": "Inter-Blockchain Communication Protocol (IBC) (fr : Protocole de communication inter-blockchains)",
+      "letter": "i",
+      "slug": "inter-blockchain-communication-protocol-ibc-fr-protocole-de-communication-inter-blockchains",
+      "category": "network-protocol",
+      "html": "<p>Une norme développée au sein de l’écosystème Cosmos qui permet à différentes blockchains d’échanger des données et des jetons de manière sécurisée. Elle assure l’interopérabilité entre des réseaux indépendants en établissant des canaux de communication sans tiers de confiance. À la mi-2024, Cardano avait intégré IBC au moyen d’une implémentation par chaîne latérale, permettant l’interopérabilité avec les chaînes utilisant Cosmos SDK et les chaînes latérales compatibles avec Ethereum.</p><div class=\"gc-src\"><a class=\"gc-src__btn\" href=\"https://cardanofoundation.org/blog/enhancing-connectivity-cosmos-ethereum-cardano\" target=\"_blank\" rel=\"noopener noreferrer\">Enhancing connectivity from Cosmos and Ethereum to Cardano — Cardano Foundation</a></div>"
+    },
+    {
+      "title": "Interledger Protocol (ILP) (fr : Protocole Interledger)",
+      "letter": "i",
+      "slug": "interledger-protocol-ilp-fr-protocole-interledger",
+      "category": "network-protocol",
+      "html": "<p>Le protocole Interledger est un protocole ouvert conçu pour permettre des paiements entre différents registres et réseaux, indépendamment de leur technologie sous-jacente. Il achemine les transactions à travers une chaîne de connecteurs, permettant à la valeur de circuler entre blockchains, banques et systèmes de paiement sans nécessiter d’intégration directe. Son intégration à Cardano est prévue.</p>"
+    },
+    {
+      "title": "Interoperability (fr : Interopérabilité)",
+      "letter": "i",
+      "slug": "interoperability-fr-interoperabilite",
+      "category": "network-protocol",
+      "html": "<p>Désigne la capacité de différents systèmes blockchain à communiquer, à échanger des données et à transférer de la valeur de manière fluide. Dans l’écosystème Cardano, l’interopérabilité constitue un objectif de conception important, poursuivi notamment au moyen de chaînes latérales, de chaînes partenaires et de l’intégration de protocoles inter-chaînes tels qu’IBC et ILP.</p>"
+    },
+    {
+      "title": "InterPlanetary File System (IPFS) (fr : Système de fichiers interplanétaire)",
+      "letter": "i",
+      "slug": "interplanetary-file-system-ipfs-fr-systeme-de-fichiers-interplanetaire",
+      "category": "general",
+      "html": "<p>L’InterPlanetary File System (IPFS) est un protocole décentralisé pair-à-pair permettant de stocker et de partager des fichiers au sein d’un réseau distribué. Au lieu d’utiliser des adresses fondées sur l’emplacement, comme les URL, IPFS identifie les contenus à l’aide de leur empreinte cryptographique, ce qui rend leur récupération plus résiliente et plus résistante aux altérations. Dans l’écosystème Cardano, IPFS est souvent utilisé pour stocker des données hors chaîne liées à des jetons ou à des NFT, ou à des actions de gouvernance, seule l’empreinte du contenu étant enregistrée sur la chaîne.</p>"
+    },
+    {
+      "title": "ISPO (fr : Offre initiale de pool de staking)",
+      "letter": "i",
+      "slug": "ispo-fr-offre-initiale-de-pool-de-staking",
+      "category": "consensus-staking",
+      "html": "<p>Une méthode de collecte de fonds dans laquelle les soutiens délèguent leurs ada à un pool de staking désigné et reçoivent les jetons du projet à la place des récompenses de staking habituelles. Les participants conservent la garde de leurs ada pendant toute la durée de la délégation.</p>"
+    },
+    {
+      "title": "Jörmungandr",
+      "letter": "j",
+      "slug": "jormungandr",
+      "category": "network-protocol",
+      "html": "<p>Jörmungandr est une première implémentation du nœud Cardano, écrite en Rust et utilisée lors des réseaux de test Shelley, notamment l’Incentivized Testnet (ITN), avant la transition vers le logiciel principal du nœud Cardano basé sur Haskell. Elle a servi à tester le fonctionnement des pools de staking et la délégation. Elle a également été utilisée comme chaîne latérale pour permettre le vote dans le cadre de Project Catalyst. Son nom fait référence au serpent de mer de la mythologie nordique.</p><div class=\"gc-src\"><a class=\"gc-src__btn\" href=\"https://cardano.org/glossary/jormungandr/\" target=\"_blank\" rel=\"noopener noreferrer\">Jörmungandr — Glossaire officiel de Cardano.org</a></div>"
+    },
+    {
+      "title": "K Parameter (K Factor) (fr : Paramètre K)",
+      "letter": "k",
+      "slug": "k-parameter-k-factor-fr-parametre-k",
+      "category": "consensus-staking",
+      "html": "<p>Un paramètre du protocole Cardano qui définit le nombre cible de pools de staking que le réseau vise à soutenir pour favoriser une décentralisation optimale. Il influence la distribution des récompenses en rendant les pools excessivement grands moins attractifs, ce qui encourage la délégation vers un plus grand nombre de pools.</p>"
+    },
+    {
+      "title": "Key Evolving Signatures (KES) (fr : Signatures à clés évolutives)",
+      "letter": "k",
+      "slug": "key-evolving-signatures-kes-fr-signatures-a-cles-evolutives",
+      "category": "wallets-keys",
+      "html": "<p>Les KES sont des clés cryptographiques utilisées par les opérateurs de pools de staking Cardano pour signer les blocs. Contrairement aux clés statiques, elles sont conçues pour évoluer au fil du temps, réduisant ainsi le risque lié à la compromission prolongée d’une clé, tout en contribuant à une production de blocs sécurisée et continue.</p>"
+    },
+    {
+      "title": "Key Management (fr : Gestion des clés)",
+      "letter": "k",
+      "slug": "key-management-fr-gestion-des-cles",
+      "category": "wallets-keys",
+      "html": "<p>Désigne les processus et les outils utilisés pour générer, stocker, utiliser et protéger les clés cryptographiques qui contrôlent l’accès aux jetons et aux fonctions d’une blockchain.</p>"
+    },
+    {
+      "title": "Key Pair (fr : Paire de clés)",
+      "letter": "k",
+      "slug": "key-pair-fr-paire-de-cles",
+      "category": "wallets-keys",
+      "html": "<p>Désigne une clé privée et la clé publique correspondante, générées à l’aide de la cryptographie. Dans une blockchain, la clé privée permet à un utilisateur d’autoriser des transactions, tandis que la clé publique — ou l’adresse qui en est dérivée — peut être partagée pour recevoir des jetons.</p>"
+    },
+    {
+      "title": "Know Your Customer (KYC) (fr : Connaissance du client)",
+      "letter": "k",
+      "slug": "know-your-customer-kyc-fr-connaissance-du-client",
+      "category": "general",
+      "html": "<p>Désigne le processus réglementaire par lequel les institutions financières et les fournisseurs de services vérifient l’identité de leurs clients. Dans le contexte de la blockchain, le KYC est souvent exigé des plateformes d’échange, des dépositaires et d’autres intermédiaires réglementés afin de respecter les obligations de lutte contre le blanchiment d’argent (AML).</p>"
+    },
+    {
+      "title": "Layer 0 (fr : Couche 0)",
+      "letter": "l",
+      "slug": "layer-0-fr-couche-0",
+      "category": "network-protocol",
+      "html": "<p>Désigne la couche d’infrastructure fondamentale d’une blockchain. Elle englobe le matériel, les protocoles et les mécanismes de communication qui permettent notamment l’interopérabilité et l’évolutivité entre différents réseaux.</p>"
+    },
+    {
+      "title": "Layer 1 (fr : Couche 1)",
+      "letter": "l",
+      "slug": "layer-1-fr-couche-1",
+      "category": "network-protocol",
+      "html": "<p>Désigne le protocole blockchain de base. Cette couche assure les fonctions essentielles du réseau, notamment le mécanisme de consensus, la finalisation des transactions et l’application des règles du protocole. Cardano est une blockchain de couche 1.</p>"
+    },
+    {
+      "title": "Layer 2 (fr : Couche 2)",
+      "letter": "l",
+      "slug": "layer-2-fr-couche-2",
+      "category": "network-protocol",
+      "html": "<p>Désigne les protocoles et technologies construits au-dessus d’une blockchain de couche 1 pour améliorer son évolutivité ou ajouter des fonctionnalités. Les solutions de couche 2 peuvent notamment traiter certaines opérations hors de la chaîne principale afin d’accélérer les transactions et de réduire leurs coûts.</p>"
+    },
+    {
+      "title": "Ledger (fr : Registre)",
+      "letter": "l",
+      "slug": "ledger-fr-registre",
+      "category": "general",
+      "html": "<p>Un système d’enregistrement qui suit les transactions et les soldes. Dans le contexte d’une blockchain, il s’agit d’un registre numérique distribué qui conserve un historique chronologique des transactions.</p>"
+    },
+    {
+      "title": "Legacy System (fr : Système existant)",
+      "letter": "l",
+      "slug": "legacy-system-fr-systeme-existant",
+      "category": "general",
+      "html": "<p>Désigne un ancien système logiciel ou une infrastructure toujours en service, mais qui peut être dépassé par rapport aux technologies modernes. Dans le contexte de la blockchain, ce terme fait souvent référence aux systèmes financiers ou informatiques traditionnels avec lesquels les solutions décentralisées cherchent à s’intégrer ou qu’elles visent à remplacer.</p>"
+    },
+    {
+      "title": "Leios",
+      "letter": "l",
+      "slug": "leios",
+      "category": "network-protocol",
+      "html": "<p>Une extension du protocole de consensus Ouroboros visant à augmenter le débit de Cardano. Elle prévoit l’utilisation de blocs d’approbation (<em>endorser blocks</em>) plus volumineux, en complément des blocs classiques, afin d’améliorer le traitement des transactions.</p>"
+    },
+    {
+      "title": "Light Node (fr : Nœud léger)",
+      "letter": "l",
+      "slug": "light-node-fr-nœud-leger",
+      "category": "network-protocol",
+      "html": "<p>Un client blockchain qui ne télécharge pas l’intégralité du registre et s’appuie sur d’autres composants ou services du réseau pour obtenir les données nécessaires et effectuer des vérifications. Cette approche réduit les besoins en ressources et permet aux utilisateurs d’interagir plus facilement avec la blockchain sans exploiter un nœud complet.</p>"
+    },
+    {
+      "title": "Liquid Democracy (fr : Démocratie liquide)",
+      "letter": "l",
+      "slug": "liquid-democracy-fr-democratie-liquide",
+      "category": "governance",
+      "html": "<p>Un modèle de gouvernance qui combine démocratie directe et démocratie représentative. Les participants peuvent voter eux-mêmes sur une question ou déléguer leur pouvoir de vote à une personne de confiance. Dans la gouvernance de Cardano, les détenteurs d’ada peuvent notamment participer directement ou déléguer leur vote à des représentants délégués (<em>Delegated Representatives</em>, DReps).</p>"
+    },
+    {
+      "title": "Liquid Staking (fr : Staking liquide)",
+      "letter": "l",
+      "slug": "liquid-staking-fr-staking-liquide",
+      "category": "consensus-staking",
+      "html": "<p>Un mécanisme utilisé dans certaines blockchains à preuve d’enjeu (<em>Proof of Stake</em>, PoS), dans lequel les participants mettent leurs jetons en staking pour obtenir des récompenses et reçoivent en contrepartie un jeton dérivé représentant leurs actifs mis en staking. Ce jeton dérivé peut rester transférable et être utilisé dans d’autres applications.</p>"
+    },
+    {
+      "title": "Live Stake (fr : Mise déléguée actuelle)",
+      "letter": "l",
+      "slug": "live-stake-fr-mise-deleguee-actuelle",
+      "category": "consensus-staking",
+      "html": "<p>Désigne le montant total d’ada actuellement délégué à un pool de staking. Ce montant intervient dans le calcul des chances du pool d’être sélectionné pour produire des blocs selon le mécanisme de consensus Ouroboros de Cardano.</p>"
+    },
+    {
+      "title": "Locking Period (fr : Période de blocage)",
+      "letter": "l",
+      "slug": "locking-period-fr-periode-de-blocage",
+      "category": "consensus-staking",
+      "html": "<p>Une période définie pendant laquelle des jetons ne peuvent pas être transférés ou vendus, par exemple dans le cadre du staking, d’un calendrier d’acquisition progressive (<em>vesting</em>) ou d’un programme d’incitation. Le staking natif de Cardano n’impose pas de période de blocage aux ada délégués : les délégants peuvent continuer à les dépenser ou à les transférer.</p>"
+    },
+    {
+      "title": "Long-Range Attack (fr : Attaque à longue portée)",
+      "letter": "l",
+      "slug": "long-range-attack-fr-attaque-a-longue-portee",
+      "category": "consensus-staking",
+      "html": "<p>Une attaque qui tente de réécrire une longue portion de l’historique d’une blockchain en construisant une chaîne concurrente à partir d’un point très ancien du passé.</p>"
+    },
+    {
+      "title": "Lovelace",
+      "letter": "l",
+      "slug": "lovelace",
+      "category": "tokens-assets",
+      "html": "<p>La plus petite unité de l’ada, le jeton natif de Cardano. Un ada équivaut à 1 000 000 de lovelaces. Le nom rend hommage à Ada Lovelace, mathématicienne du XIXe siècle souvent considérée comme l’une des premières programmeuses informatiques.</p>"
+    },
+    {
+      "title": "Mainnet (fr : Réseau principal)",
+      "letter": "m",
+      "slug": "mainnet-fr-reseau-principal",
+      "category": "network-protocol",
+      "html": "<p>La version opérationnelle d’une blockchain, sur laquelle les transactions réelles sont effectuées et les jetons possèdent une valeur économique. Le réseau principal de Cardano a été lancé en 2017. Il sert de réseau de production, contrairement aux réseaux de test utilisés pour l’expérimentation et le développement.</p>"
+    },
+    {
+      "title": "Mary",
+      "letter": "m",
+      "slug": "mary",
+      "category": "network-protocol",
+      "html": "<p>Une mise à niveau du protocole Cardano, déployée le 1er mars 2021 pendant l’ère Goguen, qui a introduit les jetons natifs et la prise en charge de plusieurs actifs sur la blockchain. Elle a permis aux utilisateurs de créer et d’échanger des jetons personnalisés directement sur Cardano, sans recourir à des contrats intelligents pour leur émission.</p>"
+    },
+    {
+      "title": "Master Node (fr : Nœud maître)",
+      "letter": "m",
+      "slug": "master-node-fr-nœud-maitre",
+      "category": "network-protocol",
+      "html": "<p>Un serveur spécialisé utilisé dans certains réseaux blockchain pour effectuer des fonctions supplémentaires au-delà de la validation classique des transactions, telles que la participation à la gouvernance ou la fourniture de services particuliers. Cardano n’utilise pas d’architecture de nœuds maîtres : ses nœuds producteurs de blocs fonctionnent selon les règles du protocole de preuve d’enjeu, au moyen des pools de staking.</p>"
+    },
+    {
+      "title": "Maximal Extractable Value (MEV) (fr : Valeur maximale extractible)",
+      "letter": "m",
+      "slug": "maximal-extractable-value-mev-fr-valeur-maximale-extractible",
+      "category": "general",
+      "html": "<p>La valeur que les producteurs de blocs peuvent extraire en réordonnant, en insérant ou en excluant des transactions dans les blocs qu’ils produisent.</p>"
+    },
+    {
+      "title": "Mempool (fr : Pool de transactions en attente)",
+      "letter": "m",
+      "slug": "mempool-fr-pool-de-transactions-en-attente",
+      "category": "consensus-staking",
+      "html": "<p>L’ensemble des transactions en attente qu’un nœud Cardano conserve localement avant leur inclusion dans un bloc.</p>"
+    },
+    {
+      "title": "Merkle Patricia Tree (fr : Arbre de Merkle-Patricia)",
+      "letter": "m",
+      "slug": "merkle-patricia-tree-fr-arbre-de-merkle-patricia",
+      "category": "general",
+      "html": "<p>Une structure de données utilisée dans certaines blockchains pour stocker et vérifier efficacement des données. Elle combine un arbre préfixe optimisé, appelé <em>Patricia Trie</em>, avec un arbre de Merkle fondé sur des empreintes cryptographiques, afin de faciliter la vérification et de détecter les modifications non autorisées.</p>"
+    },
+    {
+      "title": "Merkle Tree (fr : Arbre de Merkle)",
+      "letter": "m",
+      "slug": "merkle-tree-fr-arbre-de-merkle",
+      "category": "general",
+      "html": "<p>Une structure de données cryptographique qui organise des données, telles que des transactions, en un arbre d’empreintes cryptographiques (<em>hashes</em>). Son empreinte racine permet de vérifier efficacement qu’une donnée appartient à un ensemble, par exemple qu’une transaction figure dans un bloc, sans devoir traiter toutes les données sous-jacentes.</p>"
+    },
+    {
+      "title": "Metadata (fr : Métadonnées)",
+      "letter": "m",
+      "slug": "metadata-fr-metadonnees",
+      "category": "general",
+      "html": "<p>Des informations supplémentaires associées à des transactions ou à des blocs d’une blockchain. Elles peuvent notamment contenir des données définies par les utilisateurs et apporter un contexte ou des informations complémentaires à une transaction.</p>"
+    },
+    {
+      "title": "Milkomeda",
+      "letter": "m",
+      "slug": "milkomeda",
+      "category": "smart-contracts",
+      "html": "<p>Un protocole de chaînes latérales qui relie Cardano à des environnements compatibles avec la machine virtuelle Ethereum (<em>Ethereum Virtual Machine</em>, EVM). Il vise à permettre l’utilisation de contrats intelligents et d’applications décentralisées conçus pour Ethereum dans cet environnement interopérable.</p>"
+    },
+    {
+      "title": "Mining (fr : Minage)",
+      "letter": "m",
+      "slug": "mining-fr-minage",
+      "category": "consensus-staking",
+      "html": "<p>Le processus de validation des transactions et de production de blocs dans les blockchains utilisant la preuve de travail (<em>Proof of Work</em>, PoW). Les mineurs se font concurrence pour résoudre des problèmes de calcul et obtenir des récompenses. Cardano utilise la preuve d’enjeu (<em>Proof of Stake</em>) et non le minage par preuve de travail pour produire ses blocs.</p>"
+    },
+    {
+      "title": "Minimum Pool Cost (fr : Coût minimal du pool)",
+      "letter": "m",
+      "slug": "minimum-pool-cost-fr-cout-minimal-du-pool",
+      "category": "consensus-staking",
+      "html": "<p>Le paramètre du protocole qui définit le coût fixe minimal qu’un pool de staking peut déclarer pour chaque époque. La valeur indiquée dans le glossaire de Cardano.org est de 170 ada sur le réseau principal ; elle doit être vérifiée dans les paramètres actuels du protocole avant d’être présentée comme une valeur à jour.</p>"
+    },
+    {
+      "title": "Mithril",
+      "letter": "m",
+      "slug": "mithril",
+      "category": "network-protocol",
+      "html": "<p>Un protocole de signatures à seuil multiples fondé sur le staking, qui permet de vérifier l’authenticité d’un instantané de la blockchain Cardano sans devoir revérifier individuellement l’intégralité de son historique.</p>"
+    },
+    {
+      "title": "Minting (fr : Création de jetons)",
+      "letter": "m",
+      "slug": "minting-fr-creation-de-jetons",
+      "category": "tokens-assets",
+      "html": "<p>Le processus de création de nouveaux jetons enregistrés sur une blockchain. L’opération inverse est le <em>burning</em> (destruction de jetons), qui consiste à retirer des jetons de la circulation.</p>"
+    },
+    {
+      "title": "Monetary Expansion Rate (fr : Taux d’expansion monétaire)",
+      "letter": "m",
+      "slug": "monetary-expansion-rate-fr-taux-d-expansion-monetaire",
+      "category": "general",
+      "html": "<p>Un paramètre du protocole Cardano, souvent désigné par la lettre grecque ρ (<em>rho</em>), qui détermine la fraction des réserves d’ada restantes libérée dans le fonds de récompenses à chaque époque.</p>"
+    },
+    {
+      "title": "Multi-Party Computation Wallet (MPC Wallet) (fr : Portefeuille à calcul multipartite)",
+      "letter": "m",
+      "slug": "multi-party-computation-wallet-mpc-wallet-fr-portefeuille-a-calcul-multipartite",
+      "category": "wallets-keys",
+      "html": "<p>Un portefeuille qui répartit le contrôle cryptographique nécessaire à l’autorisation des transactions entre plusieurs parties. Contrairement à un portefeuille traditionnel dont une seule entité contrôle la clé privée complète, un portefeuille MPC permet aux parties de coopérer pour autoriser des transactions sans qu’une seule partie détienne nécessairement la clé privée complète.</p>"
+    },
+    {
+      "title": "Nakamoto Coefficient (fr : Coefficient de Nakamoto)",
+      "letter": "n",
+      "slug": "nakamoto-coefficient-fr-coefficient-de-nakamoto",
+      "category": "consensus-staking",
+      "html": "<p>Une mesure de la décentralisation d’une blockchain qui identifie le nombre minimal d’entités capables de s’entendre pour perturber le réseau ou compromettre son fonctionnement. Un coefficient plus élevé indique généralement une meilleure résistance à la centralisation.</p>"
+    },
+    {
+      "title": "Native Token (fr : Jeton natif)",
+      "letter": "n",
+      "slug": "native-token-fr-jeton-natif",
+      "category": "tokens-assets",
+      "html": "<p>Un jeton intégré au registre d’une blockchain, dont la création et le transfert ne nécessitent pas de contrat intelligent dédié. Cardano prend en charge les actifs natifs aux côtés de l’ada, permettant aux utilisateurs de créer et de transférer leurs propres jetons directement sur la blockchain.</p>"
+    },
+    {
+      "title": "Net Change Limit (fr : Limite de variation nette)",
+      "letter": "n",
+      "slug": "net-change-limit-fr-limite-de-variation-nette",
+      "category": "general",
+      "html": "<p>Une limite constitutionnelle qui plafonne le montant net d’ada que la trésorerie de Cardano peut verser sur une période définie. Les représentants délégués (<em>Delegated Representatives</em>, DReps) participent à la décision concernant cette limite dans le cadre de la gouvernance du réseau.</p>"
+    },
+    {
+      "title": "Network (fr : Réseau)",
+      "letter": "n",
+      "slug": "network-fr-reseau",
+      "category": "network-protocol",
+      "html": "<p>Un ensemble d’ordinateurs interconnectés qui échangent des données et des ressources. Dans une blockchain, le réseau est constitué de nœuds distribués qui maintiennent un registre partagé et utilisent un mécanisme de consensus. Sur Cardano, une architecture pair-à-pair permet aux nœuds, notamment ceux exploités par les opérateurs de pools de staking, de participer à la propagation des transactions et à la production des blocs.</p>"
+    },
+    {
+      "title": "Networking Layer (fr : Couche réseau)",
+      "letter": "n",
+      "slug": "networking-layer-fr-couche-reseau",
+      "category": "network-protocol",
+      "html": "<p>La couche technique qui permet aux nœuds d’une blockchain de communiquer entre eux. Elle comprend les mécanismes de communication pair-à-pair nécessaires à l’échange de données et à la coordination entre les participants du réseau.</p>"
+    },
+    {
+      "title": "Node (fr : Nœud)",
+      "letter": "n",
+      "slug": "node-fr-nœud",
+      "category": "network-protocol",
+      "html": "<p>Un ordinateur ou un appareil exécutant un logiciel blockchain et participant au fonctionnement du réseau. Selon son rôle, un nœud peut valider des transactions, relayer des données ou produire des blocs. Sur Cardano, les nœuds peuvent notamment fonctionner comme producteurs de blocs, relais ou participants qui ne produisent pas directement de blocs.</p>"
+    },
+    {
+      "title": "Non-Fungible Token (NFT) (fr : Jeton non fongible)",
+      "letter": "n",
+      "slug": "non-fungible-token-nft-fr-jeton-non-fongible",
+      "category": "tokens-assets",
+      "html": "<p>Un jeton numérique unique représentant un actif spécifique et qui n’est pas interchangeable à l’identique avec un autre jeton. Sur Cardano, les NFT peuvent être représentés par des actifs natifs enregistrés sur la blockchain. Le jeton ne garantit pas, à lui seul, les droits d’auteur ou la propriété juridique du contenu associé.</p>"
+    },
+    {
+      "title": "Nothing-at-Stake (fr : Problème du « rien à perdre »)",
+      "letter": "n",
+      "slug": "nothing-at-stake-fr-probleme-du-«-rien-a-perdre-»",
+      "category": "consensus-staking",
+      "html": "<p>Un risque associé aux mécanismes de preuve d’enjeu (<em>Proof of Stake</em>) dans lequel des validateurs peuvent signer plusieurs forks concurrents, car cela ne leur impose pas nécessairement de coût supplémentaire. Ce comportement peut compliquer le choix de la chaîne légitime.</p>"
+    },
+    {
+      "title": "Off-Chain (fr : Hors chaîne)",
+      "letter": "o",
+      "slug": "off-chain-fr-hors-chaine",
+      "category": "network-protocol",
+      "html": "<p>Désigne les activités, données ou transactions qui se déroulent en dehors de la blockchain principale. Elles peuvent notamment passer par des solutions de couche 2, des chaînes latérales ou d’autres mécanismes qui n’effectuent pas directement les opérations sur la chaîne sous-jacente.</p>"
+    },
+    {
+      "title": "On-Chain (fr : Sur chaîne)",
+      "letter": "o",
+      "slug": "on-chain-fr-sur-chaine",
+      "category": "network-protocol",
+      "html": "<p>Désigne les activités, données ou transactions enregistrées ou exécutées directement sur la blockchain. Cela comprend notamment les transactions, l’exécution de contrats intelligents et les données stockées dans le registre de la chaîne.</p>"
+    },
+    {
+      "title": "On-Chain Governance (fr : Gouvernance sur chaîne)",
+      "letter": "o",
+      "slug": "on-chain-governance-fr-gouvernance-sur-chaine",
+      "category": "governance",
+      "html": "<p>Un système dans lequel les participants à une blockchain prennent des décisions au moyen de mécanismes de vote enregistrés sur la chaîne et régis par le protocole. Les propositions, les votes et les résultats sont traçables sur la blockchain, ce qui permet de vérifier les décisions de gouvernance, notamment celles portant sur les mises à niveau du protocole, les paramètres et l’allocation des fonds.</p>"
+    },
+    {
+      "title": "Open Source (fr : Code source ouvert)",
+      "letter": "o",
+      "slug": "open-source-fr-code-source-ouvert",
+      "category": "general",
+      "html": "<p>Désigne un logiciel dont le code source est accessible au public et peut être utilisé, modifié et redistribué conformément à sa licence. Les infrastructures fondamentales de Cardano, notamment son logiciel de nœud et ses outils de développement de contrats intelligents, sont développées selon des principes open source.</p>"
+    },
+    {
+      "title": "Operational Certificate (fr : Certificat opérationnel)",
+      "letter": "o",
+      "slug": "operational-certificate-fr-certificat-operationnel",
+      "category": "network-protocol",
+      "html": "<p>Un certificat signé par l’opérateur d’un pool de staking pour autoriser une clé KES (<em>Key Evolving Signatures</em>) à produire des blocs au nom du pool.</p>"
+    },
+    {
+      "title": "Oracle (fr : Oracle)",
+      "letter": "o",
+      "slug": "oracle-fr-oracle",
+      "category": "smart-contracts",
+      "html": "<p>Un mécanisme qui fournit à une blockchain des données provenant du monde extérieur, afin que les contrats intelligents puissent les utiliser. Les blockchains ne pouvant généralement pas accéder directement aux informations externes, les oracles récupèrent et transmettent des données telles que des prix, des conditions météorologiques ou des événements du monde réel.</p>"
+    },
+    {
+      "title": "Ouroboros",
+      "letter": "o",
+      "slug": "ouroboros",
+      "category": "consensus-staking",
+      "html": "<p>Le protocole de consensus par preuve d’enjeu (<em>Proof of Stake</em>, PoS) de Cardano, développé à partir de recherches évaluées par des pairs. Il sécurise le réseau en sélectionnant des responsables de créneau (<em>slot leaders</em>) chargés de produire les blocs en fonction de la participation au staking. La famille Ouroboros comprend plusieurs variantes, notamment Ouroboros Classic, Praos et Genesis.</p>"
+    },
+    {
+      "title": "Peer (fr : Pair)",
+      "letter": "p",
+      "slug": "peer-fr-pair",
+      "category": "network-protocol",
+      "html": "<p>Un nœud participant à un réseau blockchain qui communique et échange des données avec les autres nœuds.</p>"
+    },
+    {
+      "title": "Peer Discovery (fr : Découverte des pairs)",
+      "letter": "p",
+      "slug": "peer-discovery-fr-decouverte-des-pairs",
+      "category": "network-protocol",
+      "html": "<p>Le processus par lequel les nœuds d’un réseau blockchain découvrent les autres nœuds et établissent des connexions avec eux.</p>"
+    },
+    {
+      "title": "Peer-to-Peer (P2P) (fr : Pair-à-pair)",
+      "letter": "p",
+      "slug": "peer-to-peer-p2p-fr-pair-a-pair",
+      "category": "network-protocol",
+      "html": "<p>Désigne la communication directe entre les participants d’un réseau, sans nécessiter d’intermédiaire central.</p>"
+    },
+    {
+      "title": "Peer-to-Peer Network (P2P Network) (fr : Réseau pair-à-pair)",
+      "letter": "p",
+      "slug": "peer-to-peer-network-p2p-network-fr-reseau-pair-a-pair",
+      "category": "network-protocol",
+      "html": "<p>Une structure de communication décentralisée dans laquelle chaque nœud peut agir comme client et serveur, en échangeant directement des données avec les autres. Dans une blockchain, ce modèle permet aux nœuds de diffuser des transactions, de partager des blocs et de maintenir un registre synchronisé sans dépendre de serveurs centraux.</p>"
+    },
+    {
+      "title": "Performance (fr : Performances)",
+      "letter": "p",
+      "slug": "performance-fr-performances",
+      "category": "general",
+      "html": "<p>Désigne les capacités d’une blockchain en matière de débit de transactions, de latence et d’efficacité de traitement.</p>"
+    },
+    {
+      "title": "Permissioned Blockchain (fr : Blockchain à accès autorisé)",
+      "letter": "p",
+      "slug": "permissioned-blockchain-fr-blockchain-a-acces-autorise",
+      "category": "general",
+      "html": "<p>Une blockchain dont la participation est soumise à l’autorisation d’une entité de gouvernance, par exemple un consortium ou une entreprise. L’accès au registre peut également être limité aux participants autorisés.</p>"
+    },
+    {
+      "title": "Permissionless Blockchain (fr : Blockchain sans autorisation préalable)",
+      "letter": "p",
+      "slug": "permissionless-blockchain-fr-blockchain-sans-autorisation-prealable",
+      "category": "general",
+      "html": "<p>Une blockchain à laquelle toute personne peut participer sans autorisation préalable, notamment pour valider des transactions et contribuer au consensus. Cardano est un réseau public sans autorisation préalable.</p>"
+    },
+    {
+      "title": "Pipelining (fr : Traitement en pipeline)",
+      "letter": "p",
+      "slug": "pipelining-fr-traitement-en-pipeline",
+      "category": "network-protocol",
+      "html": "<p>Une optimisation du protocole qui permet à un bloc nouvellement produit de commencer à se propager sur le réseau avant que la validation du bloc précédent soit terminée. Cette technique vise à améliorer le débit du réseau et à réduire les délais de propagation des blocs.</p>"
+    },
+    {
+      "title": "Pledge (fr : Engagement de mise)",
+      "letter": "p",
+      "slug": "pledge-fr-engagement-de-mise",
+      "category": "consensus-staking",
+      "html": "<p>Le montant d’ada qu’un opérateur de pool de staking engage personnellement dans son propre pool. Un engagement plus élevé peut augmenter légèrement les récompenses et témoigne de l’implication de l’opérateur dans la fiabilité de son pool.</p>"
+    },
+    {
+      "title": "Plinth",
+      "letter": "p",
+      "slug": "plinth",
+      "category": "smart-contracts",
+      "html": "<p>Un langage de programmation de haut niveau intégré à Haskell, utilisé par les développeurs Cardano pour écrire des validateurs exécutés sur la chaîne. Les programmes Plinth sont compilés en Plutus Core.</p>"
+    },
+    {
+      "title": "Plomin",
+      "letter": "p",
+      "slug": "plomin",
+      "category": "governance",
+      "html": "<p>Le hard fork de l’ère Conway, activé le 29 janvier 2025, qui a rendu opérationnelles les actions de gouvernance restantes définies par la CIP-1694.</p>"
+    },
+    {
+      "title": "Plutus",
+      "letter": "p",
+      "slug": "plutus",
+      "category": "smart-contracts",
+      "html": "<p>La plateforme de contrats intelligents de Cardano, fondée sur Haskell. Elle comprend des outils et un environnement de programmation permettant de créer des applications qui s’exécutent de manière déterministe sur la blockchain.</p>"
+    },
+    {
+      "title": "Plutus Core",
+      "letter": "p",
+      "slug": "plutus-core",
+      "category": "smart-contracts",
+      "html": "<p>Le langage de bas niveau utilisé pour exécuter les contrats intelligents sur Cardano. Des langages de plus haut niveau, comme Plinth et Aiken, peuvent être compilés en Plutus Core.</p>"
+    },
+    {
+      "title": "Plutus Cost Models (fr : Modèles de coûts Plutus)",
+      "letter": "p",
+      "slug": "plutus-cost-models-fr-modeles-de-couts-plutus",
+      "category": "smart-contracts",
+      "html": "<p>Les paramètres du protocole qui définissent le coût en calcul et en mémoire des opérations exécutées par les scripts Plutus. Ces modèles servent à calculer les ressources consommées par les scripts et à déterminer les frais correspondants.</p>"
+    },
+    {
+      "title": "Policy ID (fr : Identifiant de politique)",
+      "letter": "p",
+      "slug": "policy-id-fr-identifiant-de-politique",
+      "category": "tokens-assets",
+      "html": "<p>L’identifiant unique d’une politique de frappe (<em>minting policy</em>) associée aux jetons natifs de Cardano. Cette politique définit les règles qui régissent la création et la destruction des jetons concernés.</p>"
+    },
+    {
+      "title": "Pool Saturation (fr : Saturation d’un pool)",
+      "letter": "p",
+      "slug": "pool-saturation-fr-saturation-d-un-pool",
+      "category": "consensus-staking",
+      "html": "<p>Le seuil à partir duquel une délégation supplémentaire à un pool de staking ne permet plus d’augmenter proportionnellement ses récompenses. Ce mécanisme incite les délégants à répartir leur mise entre plusieurs pools.</p>"
+    },
+    {
+      "title": "Posterior Corruption (fr : Corruption a posteriori)",
+      "letter": "p",
+      "slug": "posterior-corruption-fr-corruption-a-posteriori",
+      "category": "consensus-staking",
+      "html": "<p>Une attaque dans laquelle un adversaire achète ou vole les clés de signature de personnes qui détenaient une part importante de la mise dans le passé, mais qui ne la détiennent plus au moment de l’attaque.</p>"
+    },
+    {
+      "title": "Privacy Coin (fr : Cryptomonnaie axée sur la confidentialité)",
+      "letter": "p",
+      "slug": "privacy-coin-fr-cryptomonnaie-axee-sur-la-confidentialite",
+      "category": "tokens-assets",
+      "html": "<p>Un actif cryptographique conçu pour masquer certains détails des transactions, comme l’expéditeur, le destinataire ou le montant. Selon la définition fournie par la Cardano Foundation, Cardano n’est pas une cryptomonnaie de ce type, car la transparence des transactions fait partie de sa conception.</p>"
+    },
+    {
+      "title": "Private Blockchain (fr : Blockchain privée)",
+      "letter": "p",
+      "slug": "private-blockchain-fr-blockchain-privee",
+      "category": "general",
+      "html": "<p>Une blockchain dont la lecture du registre est réservée à un groupe limité d’entités. Elle privilégie le contrôle de l’accès et la confidentialité des données.</p>"
+    },
+    {
+      "title": "Private Key (fr : Clé privée)",
+      "letter": "p",
+      "slug": "private-key-fr-cle-privee",
+      "category": "wallets-keys",
+      "html": "<p>Une clé cryptographique qui permet à un utilisateur d’autoriser des transactions et de contrôler l’accès à ses jetons. Elle doit rester confidentielle afin d’empêcher toute utilisation non autorisée des actifs associés.</p>"
+    },
+    {
+      "title": "Produced Blocks (fr : Blocs produits)",
+      "letter": "p",
+      "slug": "produced-blocks-fr-blocs-produits",
+      "category": "consensus-staking",
+      "html": "<p>Le nombre de blocs qu’un pool de staking produit avec succès au cours d’une époque. Sur Cardano, la production des blocs dépend du protocole Ouroboros, de la distribution de la mise et de l’aléa.</p>"
+    },
+    {
+      "title": "Profit Margin (fr : Marge bénéficiaire)",
+      "letter": "p",
+      "slug": "profit-margin-fr-marge-beneficiaire",
+      "category": "consensus-staking",
+      "html": "<p>Dans le contexte des pools de staking Cardano, le pourcentage des récompenses conservé par l’opérateur après prise en compte des coûts fixes. Le reste des récompenses est distribué aux délégants.</p>"
+    },
+    {
+      "title": "Programmability (fr : Programmabilité)",
+      "letter": "p",
+      "slug": "programmability-fr-programmabilite",
+      "category": "smart-contracts",
+      "html": "<p>La capacité d’une blockchain à prendre en charge des scripts complexes et des contrats intelligents. Sur Cardano, cette capacité repose notamment sur la plateforme Plutus et le modèle eUTXO.</p>"
+    },
+    {
+      "title": "Programmable Token (fr : Jeton programmable)",
+      "letter": "p",
+      "slug": "programmable-token-fr-jeton-programmable",
+      "category": "smart-contracts",
+      "html": "<p>Un jeton natif de Cardano dont les transferts sont soumis à des règles programmables. Le CIP-113 définit un cadre permettant de contrôler les opérations sur ces jetons au moyen de scripts, par exemple pour appliquer des restrictions de transfert ou des conditions d’autorisation.</p><div class=\"gc-src\"><a class=\"gc-src__btn\" href=\"https://cips.cardano.org/cip/CIP-0113\" target=\"_blank\" rel=\"noopener noreferrer\">CIP-113 — Programmable Tokens</a></div>"
+    },
+    {
+      "title": "Project Catalyst",
+      "letter": "p",
+      "slug": "project-catalyst",
+      "category": "governance",
+      "html": "<p>Le fonds d’innovation communautaire de Cardano, qui permet aux détenteurs d’ada de proposer, de discuter et de voter sur des projets susceptibles de recevoir un financement provenant de la trésorerie de Cardano. Le programme soutient le développement de l’écosystème grâce à la participation communautaire.</p>"
+    },
+    {
+      "title": "Proof of Stake (PoS) (fr : Preuve d’enjeu)",
+      "letter": "p",
+      "slug": "proof-of-stake-pos-fr-preuve-d-enjeu",
+      "category": "consensus-staking",
+      "html": "<p>Un mécanisme de consensus dans lequel les participants contribuent à la validation des transactions et à la production des blocs en fonction de leur mise engagée dans le réseau. Cardano utilise le protocole Ouroboros, fondé sur la preuve d’enjeu.</p>"
+    },
+    {
+      "title": "Proof of Work (PoW) (fr : Preuve de travail)",
+      "letter": "p",
+      "slug": "proof-of-work-pow-fr-preuve-de-travail",
+      "category": "consensus-staking",
+      "html": "<p>Un mécanisme de consensus dans lequel les mineurs rivalisent pour résoudre des problèmes de calcul afin de valider des transactions et de produire de nouveaux blocs. Ce mécanisme nécessite une puissance de calcul importante.</p>"
+    },
+    {
+      "title": "Proof-of-Stake Attacks (fr : Attaques contre la preuve d’enjeu)",
+      "letter": "p",
+      "slug": "proof-of-stake-attacks-fr-attaques-contre-la-preuve-d-enjeu",
+      "category": "consensus-staking",
+      "html": "<p>L’ensemble des catégories d’attaques connues contre les blockchains utilisant la preuve d’enjeu, ainsi que les mécanismes de défense employés par la famille de protocoles Ouroboros de Cardano.</p>"
+    },
+    {
+      "title": "Protocol (fr : Protocole)",
+      "letter": "p",
+      "slug": "protocol-fr-protocole",
+      "category": "network-protocol",
+      "html": "<p>Dans une blockchain, l’ensemble des règles et des normes qui définissent la manière dont les participants interagissent, parviennent à un consensus et maintiennent le registre. Le protocole encadre notamment la structure, la validation et le stockage des données, ainsi que la production des blocs, les récompenses et la gouvernance.</p>"
+    },
+    {
+      "title": "Public Blockchain (fr : Blockchain publique)",
+      "letter": "p",
+      "slug": "public-blockchain-fr-blockchain-publique",
+      "category": "general",
+      "html": "<p>Une blockchain dont le registre est accessible à tous. Chacun peut consulter les données enregistrées. Une blockchain publique peut également être sans autorisation préalable, ce qui permet une participation ouverte au réseau.</p>"
+    },
+    {
+      "title": "Public Key (fr : Clé publique)",
+      "letter": "p",
+      "slug": "public-key-fr-cle-publique",
+      "category": "wallets-keys",
+      "html": "<p>Un élément cryptographique dérivé d’une clé privée, utilisé notamment pour vérifier des signatures numériques et contribuer à la génération d’adresses de portefeuille. Il peut être partagé publiquement, contrairement à la clé privée.</p>"
+    },
+    {
+      "title": "Public Key Infrastructure (PKI) (fr : Infrastructure à clés publiques)",
+      "letter": "p",
+      "slug": "public-key-infrastructure-pki-fr-infrastructure-a-cles-publiques",
+      "category": "wallets-keys",
+      "html": "<p>Un cadre permettant de gérer des certificats numériques et des paires de clés afin de sécuriser les communications. Dans le domaine de la blockchain, les concepts de PKI contribuent à l’authentification et à la confiance dans les opérations cryptographiques.</p>"
+    },
+    {
+      "title": "Quorum (fr : Quorum)",
+      "letter": "q",
+      "slug": "quorum-fr-quorum",
+      "category": "governance",
+      "html": "<p>Le nombre minimal de participants ou de mises requis pour prendre une décision dans un processus de gouvernance ou de consensus. Dans la gouvernance de Cardano, les exigences de quorum s’appliquent notamment aux votes portant sur les modifications du protocole et l’utilisation de la trésorerie.</p>"
+    },
+    {
+      "title": "RealFi",
+      "letter": "r",
+      "slug": "realfi",
+      "category": "tokens-assets",
+      "html": "<p>Un concept propre à Cardano qui met l’accent sur les applications de finance décentralisée (<em>DeFi</em>) liées à l’activité économique réelle. Il couvre notamment des cas d’utilisation comme les prêts, l’identité numérique et les solutions de chaîne d’approvisionnement.</p>"
+    },
+    {
+      "title": "Real World Assets (RWAs) (fr : Actifs du monde réel)",
+      "letter": "r",
+      "slug": "real-world-assets-rwas-fr-actifs-du-monde-reel",
+      "category": "tokens-assets",
+      "html": "<p>Désigne des actifs physiques ou des actifs financiers traditionnels, notamment lorsqu’ils sont tokenisés et représentés sur une blockchain.</p>"
+    },
+    {
+      "title": "Redeemer (fr : Donnée de rédemption)",
+      "letter": "r",
+      "slug": "redeemer-fr-donnee-de-redemption",
+      "category": "smart-contracts",
+      "html": "<p>Une donnée fournie à un contrat intelligent Cardano lors d’une tentative de dépense d’une sortie de transaction. Associée aux datums et aux scripts, elle permet de déterminer si les conditions de dépense sont satisfaites.</p>"
+    },
+    {
+      "title": "Reference Input (fr : Entrée de référence)",
+      "letter": "r",
+      "slug": "reference-input-fr-entree-de-reference",
+      "category": "smart-contracts",
+      "html": "<p>Une entrée de transaction qui permet de lire les données d’un UTxO sans le dépenser. Elle permet de consulter des informations enregistrées sur la chaîne sans retirer cet UTxO de l’ensemble des UTxO disponibles.</p>"
+    },
+    {
+      "title": "Reference Script (fr : Script de référence)",
+      "letter": "r",
+      "slug": "reference-script-fr-script-de-reference",
+      "category": "smart-contracts",
+      "html": "<p>Un script Plutus attaché une seule fois à un UTxO, puis référencé — sans être inclus à nouveau — par les transactions ultérieures qui en ont besoin.</p>"
+    },
+    {
+      "title": "Reliability (fr : Fiabilité)",
+      "letter": "r",
+      "slug": "reliability-fr-fiabilite",
+      "category": "general",
+      "html": "<p>Désigne la capacité d’un système blockchain à fonctionner de manière constante et fiable, notamment pour le traitement des transactions et la production des blocs.</p>"
+    },
+    {
+      "title": "Representational State Transfer Application Programming Interfaces (REST APIs) (fr : Interfaces de programmation REST)",
+      "letter": "r",
+      "slug": "representational-state-transfer-application-programming-interfaces-rest-apis-fr-interfaces-de-programmation-rest",
+      "category": "network-protocol",
+      "html": "<p>Un style d’interface web qui permet à différents systèmes de communiquer de manière standardisée au moyen du protocole HTTP. Cardano propose des API REST par l’intermédiaire de son nœud et de services associés pour faciliter l’intégration avec des applications.</p>"
+    },
+    {
+      "title": "Reserve (fr : Réserve)",
+      "letter": "r",
+      "slug": "reserve-fr-reserve",
+      "category": "general",
+      "html": "<p>La réserve de Cardano correspond à la partie de l’offre d’ada qui n’a pas été distribuée au lancement du réseau et qui est conservée sur la chaîne pour soutenir sa durabilité à long terme. Elle est libérée progressivement selon les règles du protocole afin de contribuer au financement des récompenses de staking et de la trésorerie de Cardano.</p>"
+    },
+    {
+      "title": "Rewards / Reward (fr : Récompenses)",
+      "letter": "r",
+      "slug": "rewards-reward-fr-recompenses",
+      "category": "consensus-staking",
+      "html": "<p>Les ada distribués aux opérateurs de pools de staking et aux délégants pour leur participation au système de preuve d’enjeu de Cardano. Les récompenses proviennent des frais de transaction et de la réserve monétaire.</p>"
+    },
+    {
+      "title": "Rewards Wallet (fr : Portefeuille de récompenses)",
+      "letter": "r",
+      "slug": "rewards-wallet-fr-portefeuille-de-recompenses",
+      "category": "wallets-keys",
+      "html": "<p>L’adresse à laquelle les récompenses de staking sont automatiquement distribuées aux détenteurs d’ada. Les délégants peuvent dépenser ces récompenses ou les déléguer à nouveau sans déplacer leur mise principale.</p>"
+    },
+    {
+      "title": "Rollback (fr : Retour en arrière)",
+      "letter": "r",
+      "slug": "rollback-fr-retour-en-arriere",
+      "category": "network-protocol",
+      "html": "<p>Lorsqu’un nœud Cardano annule les blocs les plus récents parce que le réseau a convergé vers une autre branche de la blockchain.</p>"
+    },
+    {
+      "title": "Rosetta",
+      "letter": "r",
+      "slug": "rosetta",
+      "category": "network-protocol",
+      "html": "<p>Un standard ouvert développé par Coinbase pour simplifier l’intégration des blockchains. Cardano implémente les API Rosetta afin de faciliter la prise en charge de l’ada par les plateformes d’échange et les dépositaires.</p>"
+    },
+    {
+      "title": "SanchoNet",
+      "letter": "s",
+      "slug": "sanchonet",
+      "category": "network-protocol",
+      "html": "<p>Le réseau de test de Cardano consacré à la gouvernance CIP-1694, où de nouvelles fonctionnalités et de nouveaux outils de gouvernance peuvent être testés.</p>"
+    },
+    {
+      "title": "Saturation",
+      "letter": "s",
+      "slug": "saturation",
+      "category": "consensus-staking",
+      "html": "<p>Désigne le point auquel un pool de staking Cardano atteint la taille optimale pour la distribution des récompenses. La délégation à des pools sursaturés réduit les rendements, encourageant ainsi la répartition de la mise entre plusieurs pools.</p>"
+    },
+    {
+      "title": "Scam (fr : Arnaque)",
+      "letter": "s",
+      "slug": "scam-fr-arnaque",
+      "category": "general",
+      "html": "<p>Un stratagème frauduleux conçu pour voler des fonds ou des informations personnelles, souvent en exploitant la confiance des utilisateurs ou leur manque de connaissances.</p>"
+    },
+    {
+      "title": "Scalability (fr : Évolutivité)",
+      "letter": "s",
+      "slug": "scalability-fr-evolutivite",
+      "category": "general",
+      "html": "<p>Désigne la capacité d’un réseau blockchain à gérer des volumes de transactions croissants sans sacrifier la vitesse, la sécurité ou la décentralisation.</p>"
+    },
+    {
+      "title": "Script Context (fr : Contexte du script)",
+      "letter": "s",
+      "slug": "script-context-fr-contexte-du-script",
+      "category": "smart-contracts",
+      "html": "<p>Dans Cardano, les informations fournies à un contrat intelligent Plutus pendant son exécution, notamment les détails de la transaction. Ces informations garantissent que les contrats évaluent les conditions de manière déterministe.</p>"
+    },
+    {
+      "title": "Scripting Layer (fr : Couche de scripts)",
+      "letter": "s",
+      "slug": "scripting-layer-fr-couche-de-scripts",
+      "category": "smart-contracts",
+      "html": "<p>Désigne le composant comprenant le langage de programmation Plutus, dans lequel les contrats intelligents sont définis et exécutés.</p>"
+    },
+    {
+      "title": "Securitization (fr : Titrisation)",
+      "letter": "s",
+      "slug": "securitization-fr-titrisation",
+      "category": "tokens-assets",
+      "html": "<p>La titrisation est le processus de conversion d’un actif en instrument financier négociable, souvent en regroupant cet actif dans une entité juridique dédiée et en émettant des titres de créance ou des parts correspondantes.</p>"
+    },
+    {
+      "title": "Security (fr : Sécurité)",
+      "letter": "s",
+      "slug": "security-fr-securite",
+      "category": "general",
+      "html": "<p>Dans les blockchains, la sécurité désigne les mesures qui protègent le réseau contre les attaques, la fraude ou les accès non autorisés. La sécurité d’une blockchain repose sur des techniques cryptographiques, des mécanismes de consensus et une architecture réseau visant à garantir l’intégrité des données et la résilience du système.</p>"
+    },
+    {
+      "title": "Security Token (fr : Jeton financier)",
+      "letter": "s",
+      "slug": "security-token-fr-jeton-financier",
+      "category": "tokens-assets",
+      "html": "<p>Désigne un type de jeton représentant une participation dans un instrument financier ou un actif réglementé, comme des actions ou des obligations.</p>"
+    },
+    {
+      "title": "Seed (fr : Graine cryptographique)",
+      "letter": "s",
+      "slug": "seed-fr-graine-cryptographique",
+      "category": "wallets-keys",
+      "html": "<p>Une graine, ou phrase de récupération, est une séquence de mots qui encode les informations nécessaires à la récupération d’un portefeuille blockchain. Elle sert de clé maîtresse à partir de laquelle sont dérivées les clés privées et les adresses. Toute personne ayant accès à cette graine peut contrôler les jetons du portefeuille.</p>"
+    },
+    {
+      "title": "Seed Phrase (fr : Phrase de récupération)",
+      "letter": "s",
+      "slug": "seed-phrase-fr-phrase-de-recuperation",
+      "category": "wallets-keys",
+      "html": "<p>Une séquence de mots, généralement composée de 15 ou 24 mots sur Cardano, et parfois de 12 ou 27 mots, qui permet de restaurer un portefeuille compatible.</p>"
+    },
+    {
+      "title": "Settlement Layer (fr : Couche de règlement)",
+      "letter": "s",
+      "slug": "settlement-layer-fr-couche-de-reglement",
+      "category": "network-protocol",
+      "html": "<p>Désigne le composant dans lequel se trouvent la fonction de registre et les règles correspondantes, permettant d’effectuer des transactions en ada. Il utilise le modèle eUTXO, dans lequel les transactions sont représentées par des entrées et des sorties.</p>"
+    },
+    {
+      "title": "Sharding (fr : Partitionnement en fragments)",
+      "letter": "s",
+      "slug": "sharding-fr-partitionnement-en-fragments",
+      "category": "network-protocol",
+      "html": "<p>Une technique d’évolutivité dans laquelle une blockchain est divisée en partitions plus petites, appelées <em>shards</em>, qui traitent les transactions en parallèle. Cardano n’utilise pas le sharding et privilégie plutôt des solutions comme Hydra et les Input Endorsers.</p>"
+    },
+    {
+      "title": "Shelley",
+      "letter": "s",
+      "slug": "shelley",
+      "category": "consensus-staking",
+      "html": "<p>La deuxième ère du développement de Cardano, axée sur la décentralisation. Shelley a introduit les pools de staking, la délégation et les récompenses de staking, faisant passer le réseau d’une production fédérée des blocs à une production assurée par la communauté.</p>"
+    },
+    {
+      "title": "Sidechain (fr : Chaîne latérale)",
+      "letter": "s",
+      "slug": "sidechain-fr-chaine-laterale",
+      "category": "network-protocol",
+      "html": "<p>Une blockchain distincte reliée à la chaîne principale, qui permet d’ajouter des fonctionnalités ou d’expérimenter de nouvelles possibilités sans affecter le réseau principal.</p>"
+    },
+    {
+      "title": "Slashing (fr : Pénalité de mise)",
+      "letter": "s",
+      "slug": "slashing-fr-penalite-de-mise",
+      "category": "consensus-staking",
+      "html": "<p>Un mécanisme de pénalité utilisé dans certaines blockchains à preuve d’enjeu, dans lequel les validateurs qui se comportent de manière incorrecte perdent une partie de leur mise. Cardano n’utilise pas le slashing.</p>"
+    },
+    {
+      "title": "Slot (fr : Créneau)",
+      "letter": "s",
+      "slug": "slot-fr-creneau",
+      "category": "consensus-staking",
+      "html": "<p>Un intervalle de temps fixe pendant lequel un bloc peut être produit. Les créneaux sont regroupés en époques, et des responsables de créneau sont sélectionnés pour créer des blocs pendant les créneaux qui leur sont attribués.</p>"
+    },
+    {
+      "title": "Slot Leader (fr : Responsable de créneau)",
+      "letter": "s",
+      "slug": "slot-leader-fr-responsable-de-creneau",
+      "category": "consensus-staking",
+      "html": "<p>Le pool de staking choisi par le protocole Ouroboros pour produire un bloc pendant un créneau donné. Sa sélection repose sur la distribution de la mise et sur un mécanisme d’aléa vérifiable.</p>"
+    },
+    {
+      "title": "Smart Contract (fr : Contrat intelligent)",
+      "letter": "s",
+      "slug": "smart-contract-fr-contrat-intelligent",
+      "category": "smart-contracts",
+      "html": "<p>Un code autonome déployé sur une blockchain, qui exécute automatiquement des actions lorsque les conditions programmées sont remplies. Sur Cardano, les contrats intelligents sont écrits en Plutus et exécutés dans le modèle eUTXO étendu.</p>"
+    },
+    {
+      "title": "SMASH",
+      "letter": "s",
+      "slug": "smash",
+      "category": "consensus-staking",
+      "html": "<p>Un service hors chaîne qui regroupe les métadonnées des pools de staking afin que les portefeuilles puissent les découvrir et les explorer.</p>"
+    },
+    {
+      "title": "Soft Fork (fr : Fourche souple)",
+      "letter": "s",
+      "slug": "soft-fork-fr-fourche-souple",
+      "category": "network-protocol",
+      "html": "<p>Une modification du protocole blockchain compatible avec les versions antérieures : les nœuds mis à jour appliquent les nouvelles règles, tandis que les anciens nœuds peuvent encore reconnaître les blocs. Les fourches souples nécessitent généralement qu’une majorité des nœuds soit mise à jour pour être effectives.</p>"
+    },
+    {
+      "title": "Spending Password (fr : Mot de passe de dépense)",
+      "letter": "s",
+      "slug": "spending-password-fr-mot-de-passe-de-depense",
+      "category": "wallets-keys",
+      "html": "<p>Un mot de passe utilisé par un portefeuille pour chiffrer la clé privée, ajoutant ainsi une couche de sécurité.</p>"
+    },
+    {
+      "title": "Stablecoin (fr : Cryptomonnaie stable)",
+      "letter": "s",
+      "slug": "stablecoin-fr-cryptomonnaie-stable",
+      "category": "tokens-assets",
+      "html": "<p>Un jeton conçu pour maintenir une valeur stable en étant rattaché à une référence externe, comme une monnaie fiduciaire ou un panier d’actifs.</p>"
+    },
+    {
+      "title": "Stake Address (fr : Adresse de staking)",
+      "letter": "s",
+      "slug": "stake-address-fr-adresse-de-staking",
+      "category": "wallets-keys",
+      "html": "<p>L’adresse de staking au format Bech32, généralement commençant par `stake1`, qui permet la délégation et la réception des récompenses de staking, séparément de l’adresse de paiement.</p>"
+    },
+    {
+      "title": "Stake Address Deposit (fr : Dépôt d’enregistrement d’une adresse de staking)",
+      "letter": "s",
+      "slug": "stake-address-deposit-fr-depot-d-enregistrement-d-une-adresse-de-staking",
+      "category": "wallets-keys",
+      "html": "<p>Le montant remboursable d’ada bloqué lorsqu’un portefeuille enregistre une adresse de staking afin de pouvoir déléguer ou gagner des récompenses.</p>"
+    },
+    {
+      "title": "Stake Delegation (fr : Délégation de mise)",
+      "letter": "s",
+      "slug": "stake-delegation-fr-delegation-de-mise",
+      "category": "consensus-staking",
+      "html": "<p>Le processus par lequel les détenteurs d’ada attribuent leur mise à un pool de staking sans transférer la propriété de leurs jetons. Cela leur permet de participer à la sécurisation du réseau Cardano et de gagner des récompenses, tandis que l’opérateur du pool utilise la mise déléguée pour augmenter ses chances de produire des blocs.</p>"
+    },
+    {
+      "title": "Stake Majority Attack (fr : Attaque par majorité de mise)",
+      "letter": "s",
+      "slug": "stake-majority-attack-fr-attaque-par-majorite-de-mise",
+      "category": "consensus-staking",
+      "html": "<p>Une attaque dans laquelle une seule partie contrôle plus de la moitié de la mise engagée en ada et peut réécrire l’historique récent ou censurer des transactions.</p>"
+    },
+    {
+      "title": "Stake Pool (fr : Pool de staking)",
+      "letter": "s",
+      "slug": "stake-pool-fr-pool-de-staking",
+      "category": "consensus-staking",
+      "html": "<p>Une ressource collective dans une blockchain à preuve d’enjeu, dans laquelle les mises de plusieurs participants sont regroupées afin d’augmenter les chances de produire de nouveaux blocs et de gagner des récompenses. Les pools sont gérés par des opérateurs qui exploitent l’infrastructure nécessaire et distribuent les récompenses proportionnellement aux délégants, après déduction des frais liés aux coûts opérationnels.</p>"
+    },
+    {
+      "title": "Stake Pool Deposit (fr : Dépôt d’enregistrement d’un pool de staking)",
+      "letter": "s",
+      "slug": "stake-pool-deposit-fr-depot-d-enregistrement-d-un-pool-de-staking",
+      "category": "consensus-staking",
+      "html": "<p>Le montant remboursable d’ada requis pour enregistrer un nouveau pool de staking. La définition source indique actuellement 500 ada sur le réseau principal.</p>"
+    },
+    {
+      "title": "Stake Pool Operator (SPO) (fr : Opérateur de pool de staking)",
+      "letter": "s",
+      "slug": "stake-pool-operator-spo-fr-operateur-de-pool-de-staking",
+      "category": "consensus-staking",
+      "html": "<p>La personne ou l’organisation responsable de la gestion d’un pool de staking. Les SPO veillent à la disponibilité, aux performances et à la fiabilité des nœuds, et partagent les récompenses générées par le pool avec les délégants.</p>"
+    },
+    {
+      "title": "Stake Snapshot (fr : Instantané de la mise)",
+      "letter": "s",
+      "slug": "stake-snapshot-fr-instantane-de-la-mise",
+      "category": "consensus-staking",
+      "html": "<p>Une capture de la délégation de chaque compte à la frontière entre deux époques. Elle représente la mise que le protocole prend effectivement en compte.</p>"
+    },
+    {
+      "title": "Stake-Bleeding Attack (fr : Attaque par érosion de la mise)",
+      "letter": "s",
+      "slug": "stake-bleeding-attack-fr-attaque-par-erosion-de-la-mise",
+      "category": "consensus-staking",
+      "html": "<p>Une attaque à long terme dans laquelle une chaîne minoritaire érode progressivement la mise de la chaîne honnête afin de faire passer la participation vers sa propre chaîne.</p>"
+    },
+    {
+      "title": "Staking (fr : Mise en jeu)",
+      "letter": "s",
+      "slug": "staking-fr-mise-en-jeu",
+      "category": "consensus-staking",
+      "html": "<p>Le processus de participation au consensus d’une blockchain à preuve d’enjeu en engageant des jetons pour contribuer à la sécurité du réseau et à la validation des transactions, généralement en échange de récompenses. Sur Cardano, les détenteurs d’ada peuvent exploiter un pool de staking ou déléguer leur mise à un pool existant.</p>"
+    },
+    {
+      "title": "Style Guide (fr : Guide de style)",
+      "letter": "s",
+      "slug": "style-guide-fr-guide-de-style",
+      "category": "general",
+      "html": "<p>Le guide de style éditorial définit les conventions de rédaction, les normes orthographiques et la terminologie à utiliser dans les contenus de Cardano.</p>"
+    },
+    {
+      "title": "Sybil Attack (fr : Attaque Sybil)",
+      "letter": "s",
+      "slug": "sybil-attack-fr-attaque-sybil",
+      "category": "consensus-staking",
+      "html": "<p>Une attaque dans laquelle un acteur malveillant crée de nombreuses identités fictives afin d’obtenir une influence disproportionnée sur un réseau. Cardano atténue les attaques Sybil grâce à son modèle de staking, dans lequel l’influence est liée aux avoirs en ada.</p>"
+    },
+    {
+      "title": "Testnet (fr : Réseau de test)",
+      "letter": "t",
+      "slug": "testnet-fr-reseau-de-test",
+      "category": "network-protocol",
+      "html": "<p>Un réseau blockchain distinct utilisé pour l’expérimentation et le développement, sans valeur économique réelle. Cardano propose des réseaux de test sur lesquels les développeurs utilisent des ada de test (<em>test ada</em>, tADA) pour essayer des applications décentralisées (dApps), des transactions et des mises à niveau.</p>"
+    },
+    {
+      "title": "Token (fr : Jeton)",
+      "letter": "t",
+      "slug": "token-fr-jeton",
+      "category": "tokens-assets",
+      "html": "<p>Une unité ou une représentation numérique de valeur enregistrée sur une blockchain.</p>"
+    },
+    {
+      "title": "Tokenization (fr : Tokenisation)",
+      "letter": "t",
+      "slug": "tokenization-fr-tokenisation",
+      "category": "tokens-assets",
+      "html": "<p>Le processus consistant à représenter des actifs du monde réel ou des actifs numériques sous forme de jetons sur une blockchain.</p>"
+    },
+    {
+      "title": "Token Standard (fr : Standard de jetons)",
+      "letter": "t",
+      "slug": "token-standard-fr-standard-de-jetons",
+      "category": "tokens-assets",
+      "html": "<p>Un ensemble de règles définissant le comportement des jetons sur une blockchain afin d’assurer leur compatibilité et leur interopérabilité.</p>"
+    },
+    {
+      "title": "Total Value Locked (TVL) (fr : Valeur totale verrouillée)",
+      "letter": "t",
+      "slug": "total-value-locked-tvl-fr-valeur-totale-verrouillee",
+      "category": "tokens-assets",
+      "html": "<p>Une mesure de la valeur totale des jetons engagés dans un protocole de finance décentralisée (DeFi).</p>"
+    },
+    {
+      "title": "TPS (Transactions Per Second) (fr : Transactions par seconde)",
+      "letter": "t",
+      "slug": "tps-transactions-per-second-fr-transactions-par-seconde",
+      "category": "network-protocol",
+      "html": "<p>Une mesure du débit d’une blockchain indiquant le nombre de transactions qu’elle peut traiter en une seconde. C’est une mesure courante, mais limitée, car elle ne tient pas compte de la complexité des transactions.</p>"
+    },
+    {
+      "title": "Transaction (fr : Transaction)",
+      "letter": "t",
+      "slug": "transaction-fr-transaction",
+      "category": "network-protocol",
+      "html": "<p>Un enregistrement d’un transfert de valeur ou de données soumis à une blockchain et validé par le réseau. Sur Cardano, les transactions suivent le modèle eUTXO et peuvent inclure des jetons, des métadonnées ou des interactions avec des contrats intelligents.</p>"
+    },
+    {
+      "title": "Transaction Fee (fr : Frais de transaction)",
+      "letter": "t",
+      "slug": "transaction-fee-fr-frais-de-transaction",
+      "category": "network-protocol",
+      "html": "<p>Les frais facturés pour soumettre une transaction. Sur Cardano, ils sont calculés à partir de la taille sérialisée de la transaction, exprimée en octets.</p>"
+    },
+    {
+      "title": "Treasury (fr : Trésorerie)",
+      "letter": "t",
+      "slug": "treasury-fr-tresorerie",
+      "category": "governance",
+      "html": "<p>Un mécanisme de financement décentralisé intégré à la blockchain Cardano, sans autorité centrale de contrôle. Il vise à assurer la durabilité à long terme du réseau en finançant son développement continu, la recherche et les activités de son écosystème. L’utilisation des fonds est décidée collectivement par les détenteurs d’ada au moyen de la gouvernance sur chaîne. Project Catalyst est l’une des initiatives soutenues par la trésorerie.</p>"
+    },
+    {
+      "title": "Treasury Cut (fr : Part prélevée pour la trésorerie)",
+      "letter": "t",
+      "slug": "treasury-cut-fr-part-prelevee-pour-la-tresorerie",
+      "category": "governance",
+      "html": "<p>Le paramètre du protocole, souvent désigné par la lettre grecque τ (<em>tau</em>), qui détermine quelle fraction des récompenses de chaque époque est transférée vers la trésorerie.</p>"
+    },
+    {
+      "title": "Treasury Donation (fr : Don à la trésorerie)",
+      "letter": "t",
+      "slug": "treasury-donation-fr-don-a-la-tresorerie",
+      "category": "governance",
+      "html": "<p>Une transaction qui envoie directement des ada à la trésorerie de Cardano, augmentant ainsi les fonds disponibles pour soutenir les initiatives de la communauté.</p>"
+    },
+    {
+      "title": "Treasury Withdrawal (fr : Retrait de la trésorerie)",
+      "letter": "t",
+      "slug": "treasury-withdrawal-fr-retrait-de-la-tresorerie",
+      "category": "governance",
+      "html": "<p>Une action de gouvernance définie par la CIP-1694 qui propose de retirer des fonds de la trésorerie sur chaîne et de les verser à un ou plusieurs bénéficiaires.</p>"
+    },
+    {
+      "title": "Unbonding (fr : Période de déblocage)",
+      "letter": "u",
+      "slug": "unbonding-fr-periode-de-deblocage",
+      "category": "consensus-staking",
+      "html": "<p>Désigne une période pendant laquelle les jetons délégués ou mis en staking ne peuvent pas être immédiatement retirés ou transférés. Alors que de nombreux réseaux à preuve d’enjeu (<em>Proof of Stake</em>, PoS) imposent une période de déblocage, Cardano permet de déléguer des ada sans période de blocage : les jetons restent liquides et transférables à tout moment.</p>"
+    },
+    {
+      "title": "Untyped Plutus Core (UPLC) (fr : Plutus Core non typé)",
+      "letter": "u",
+      "slug": "untyped-plutus-core-uplc-fr-plutus-core-non-type",
+      "category": "smart-contracts",
+      "html": "<p>Le langage de bas niveau, ou « langage machine », exécuté sur la chaîne par les nœuds Cardano pendant la validation des transactions.</p>"
+    },
+    {
+      "title": "USDM",
+      "letter": "u",
+      "slug": "usdm",
+      "category": "tokens-assets",
+      "html": "<p>Un stablecoin indexé sur le dollar américain, émis sur Cardano par Moneta (anciennement Mehen Finance) et adossé à des réserves en dollars américains.</p>"
+    },
+    {
+      "title": "Use Case (fr : Cas d’utilisation)",
+      "letter": "u",
+      "slug": "use-case-fr-cas-d-utilisation",
+      "category": "general",
+      "html": "<p>Une application ou un scénario spécifique dans lequel une technologie Cardano permet de résoudre un problème.</p>"
+    },
+    {
+      "title": "Utility Token (fr : Jeton utilitaire)",
+      "letter": "u",
+      "slug": "utility-token-fr-jeton-utilitaire",
+      "category": "tokens-assets",
+      "html": "<p>Un type de jeton qui donne accès à des fonctions, des produits ou des services spécifiques au sein d’un réseau blockchain.</p>"
+    },
+    {
+      "title": "UTXO (Unspent Transaction Output) (fr : Sortie de transaction non dépensée)",
+      "letter": "u",
+      "slug": "utxo-unspent-transaction-output-fr-sortie-de-transaction-non-depensee",
+      "category": "smart-contracts",
+      "html": "<p>Un modèle de suivi des soldes dans lequel les jetons sont représentés par des sorties de transactions précédentes pouvant être dépensées dans de nouvelles transactions. Cardano étend ce modèle avec sa conception eUTXO (<em>Extended UTXO</em>).</p>"
+    },
+    {
+      "title": "UTxO Cost per Byte (fr : Coût UTxO par octet)",
+      "letter": "u",
+      "slug": "utxo-cost-per-byte-fr-cout-utxo-par-octet",
+      "category": "smart-contracts",
+      "html": "<p>Le paramètre du protocole qui fixe le coût de chaque octet de stockage occupé par un UTxO, utilisé pour déterminer le dépôt minimal requis.</p>"
+    },
+    {
+      "title": "Validator (fr : Validateur)",
+      "letter": "v",
+      "slug": "validator-fr-validateur",
+      "category": "consensus-staking",
+      "html": "<p>Un participant qui vérifie les transactions et produit des blocs dans un système de preuve d’enjeu (<em>Proof of Stake</em>). Sur Cardano, les validateurs sont représentés par des pools de staking sélectionnés par le protocole de consensus Ouroboros.</p>"
+    },
+    {
+      "title": "Van Rossem",
+      "letter": "v",
+      "slug": "van-rossem",
+      "category": "network-protocol",
+      "html": "<p>Le hard fork de l’ère Conway du 18 juillet 2026, correspondant à la version 11 du protocole, qui a ajouté de nouvelles fonctionnalités Plutus et constitué la première mise à niveau de Cardano ratifiée entièrement par la gouvernance sur chaîne.</p>"
+    },
+    {
+      "title": "Vasil (Vasil Hard Fork)",
+      "letter": "v",
+      "slug": "vasil-vasil-hard-fork",
+      "category": "network-protocol",
+      "html": "<p>Le hard fork du 22 septembre 2022 qui a amélioré l’efficacité des contrats intelligents et les performances du réseau. Cette mise à niveau a notamment introduit les entrées de référence (<em>reference inputs</em>) et les données intégrées (<em>inline datums</em>).</p>"
+    },
+    {
+      "title": "Voltaire",
+      "letter": "v",
+      "slug": "voltaire",
+      "category": "governance",
+      "html": "<p>La cinquième phase de la feuille de route initiale de Cardano, axée sur la gouvernance et l’autonomie financière du réseau. Ses concepts sont désormais mis en œuvre dans l’ère Conway, notamment grâce à la gouvernance sur chaîne et aux mécanismes de trésorerie.</p>"
+    },
+    {
+      "title": "Voting Power (fr : Pouvoir de vote)",
+      "letter": "v",
+      "slug": "voting-power-fr-pouvoir-de-vote",
+      "category": "governance",
+      "html": "<p>Le poids dont dispose un participant dans les décisions de gouvernance de Cardano. Les détenteurs d’ada peuvent déléguer leur pouvoir de vote à un représentant délégué (<em>DRep</em>), qui vote sur les actions de gouvernance en leur nom. Pour les DReps et les opérateurs de pools de staking (<em>SPOs</em>), le poids des votes dépend de la quantité de mise active associée à leur vote, selon les règles de gouvernance applicables.</p><div class=\"gc-src\"><a class=\"gc-src__btn\" href=\"https://cardano.org/glossary/drep/\" target=\"_blank\" rel=\"noopener noreferrer\">Cardano.org — DRep</a></div><div class=\"gc-src\"><a class=\"gc-src__btn\" href=\"https://docs.cardano.org/about-cardano/governance-overview\" target=\"_blank\" rel=\"noopener noreferrer\">Documentation Cardano — Vue d’ensemble de la gouvernance</a></div>"
+    },
+    {
+      "title": "Voting Thresholds (fr : Seuils de vote)",
+      "letter": "v",
+      "slug": "voting-thresholds-fr-seuils-de-vote",
+      "category": "governance",
+      "html": "<p>L’ensemble des paramètres du protocole qui définissent le pourcentage de votes requis auprès des différents organes de gouvernance — notamment les DReps et les opérateurs de pools de staking — pour ratifier chaque type d’action de gouvernance.</p><div class=\"gc-src\"><a class=\"gc-src__btn\" href=\"https://cardano.org/glossary/voting-thresholds/\" target=\"_blank\" rel=\"noopener noreferrer\">Cardano.org — Voting Thresholds</a></div>"
+    },
+    {
+      "title": "VRF (Verifiable Random Function) (fr : Fonction aléatoire vérifiable)",
+      "letter": "v",
+      "slug": "vrf-verifiable-random-function-fr-fonction-aleatoire-verifiable",
+      "category": "consensus-staking",
+      "html": "<p>Un outil cryptographique qui produit une sortie aléatoire accompagnée d’une preuve permettant de vérifier sa validité. Sur Cardano, les opérateurs de pools de staking utilisent les VRF dans le protocole Ouroboros pour déterminer de manière imprévisible et vérifiable s’ils sont sélectionnés pour produire un bloc.</p>"
+    },
+    {
+      "title": "Wallet (fr : Portefeuille)",
+      "letter": "w",
+      "slug": "wallet-fr-portefeuille",
+      "category": "wallets-keys",
+      "html": "<p>Une application logicielle ou un dispositif qui stocke et gère les clés publiques et privées, permettant aux utilisateurs d’interagir avec une blockchain en envoyant, recevant et gérant leurs jetons et leurs transactions.</p><div class=\"gc-src\"><a class=\"gc-src__btn\" href=\"https://docs.cardano.org/about-cardano/new-to-cardano/types-of-wallets\" target=\"_blank\" rel=\"noopener noreferrer\">Cardano Docs — Types of wallets</a></div><div class=\"gc-src\"><a class=\"gc-src__btn\" href=\"https://docs.cardano.org/learn/cardano-keys/\" target=\"_blank\" rel=\"noopener noreferrer\">Cardano Docs — Cardano keys</a></div>"
+    },
+    {
+      "title": "Wallet Address (fr : Adresse de portefeuille)",
+      "letter": "w",
+      "slug": "wallet-address-fr-adresse-de-portefeuille",
+      "category": "wallets-keys",
+      "html": "<p>Un identifiant alphanumérique unique dérivé de clés publiques qui désigne la destination des jetons sur une blockchain. Il permet aux participants d’envoyer et de recevoir des jetons de manière sécurisée tout en préservant leur pseudonymat. Sur Cardano, les adresses peuvent également contenir des informations liées au staking, qui les relient à la délégation et aux récompenses.</p><div class=\"gc-src\"><a class=\"gc-src__btn\" href=\"https://docs.cardano.org/learn/cardano-addresses/\" target=\"_blank\" rel=\"noopener noreferrer\">Cardano Docs — Cardano addresses</a></div>"
+    },
+    {
+      "title": "Wanchain",
+      "letter": "w",
+      "slug": "wanchain",
+      "category": "network-protocol",
+      "html": "<p>Une blockchain et un protocole d’interopérabilité qui permettent des transactions inter-chaînes bidirectionnelles et non dépositaires (<em>non-custodial</em>) avec plusieurs réseaux, dont Cardano.</p><div class=\"gc-src\"><a class=\"gc-src__btn\" href=\"https://docs.wanchain.org/products/wanbridge\" target=\"_blank\" rel=\"noopener noreferrer\">Wanchain Documentation — WanBridge</a></div><div class=\"gc-src\"><a class=\"gc-src__btn\" href=\"https://docs.wanchain.org/wallet-and-tools/wanchain-bridge-user-manual-new-version\" target=\"_blank\" rel=\"noopener noreferrer\">Wanchain Documentation — Guide de WanBridge avec un transfert d’ADA</a></div>"
+    },
+    {
+      "title": "Warm Wallet (fr : Portefeuille connecté sécurisé)",
+      "letter": "w",
+      "slug": "warm-wallet-fr-portefeuille-connecte-securise",
+      "category": "wallets-keys",
+      "html": "<p>Un portefeuille connecté à Internet, mais doté de fonctionnalités de sécurité renforcées par rapport aux portefeuilles connectés en permanence (<em>hot wallets</em>), souvent utilisé pour des solutions de conservation ou des applications d’entreprise. Il cherche à équilibrer accessibilité et protection.</p>"
+    },
+    {
+      "title": "Web2",
+      "letter": "w",
+      "slug": "web2",
+      "category": "general",
+      "html": "<p>Web2 désigne l’ère d’Internet caractérisée par des plateformes interactives, du contenu généré par les utilisateurs, les réseaux sociaux et des services centralisés contrôlés par de grandes entreprises.</p><div class=\"gc-src\"><a class=\"gc-src__btn\" href=\"https://ethereum.org/fr/developers/docs/web2-vs-web3/\" target=\"_blank\" rel=\"noopener noreferrer\">Ethereum.org — Web2 vs Web3, en français</a></div>"
+    },
+    {
+      "title": "Web3",
+      "letter": "w",
+      "slug": "web3",
+      "category": "general",
+      "html": "<p>Désigne le concept d’un Internet décentralisé reposant sur la blockchain, dans lequel les utilisateurs disposent d’un meilleur contrôle sur leurs données, leur identité et leurs interactions numériques.</p><div class=\"gc-src\"><a class=\"gc-src__btn\" href=\"https://ethereum.org/fr/web3/\" target=\"_blank\" rel=\"noopener noreferrer\">Ethereum.org — Qu’est-ce que le Web3 ?, en français</a></div>"
+    },
+    {
+      "title": "Working Group (fr : Groupe de travail)",
+      "letter": "w",
+      "slug": "working-group-fr-groupe-de-travail",
+      "category": "governance",
+      "html": "<p>Un groupe réunissant des experts et des membres de la communauté afin de se concentrer sur un sujet spécifique au sein de l’écosystème Cardano.</p>"
+    },
+    {
+      "title": "x402",
+      "letter": "x",
+      "slug": "x402",
+      "category": "network-protocol",
+      "html": "<p>Un standard de paiement ouvert qui réutilise le code d’état HTTP 402 (<em>Payment Required</em>) pour permettre aux logiciels, aux services Web et aux agents d’intelligence artificielle de payer à la demande pour accéder à des API ou à des ressources numériques. Le serveur indique les conditions de paiement, le client effectue le paiement et renvoie une preuve de paiement, puis le serveur vérifie celui-ci avant de fournir la ressource demandée.</p><p>Sur Cardano, x402 prend notamment en charge les paiements en ada et en jetons natifs, ainsi que des mécanismes de paiement reposant sur des contrats intelligents.</p><div class=\"gc-src\"><a class=\"gc-src__btn\" href=\"https://developers.cardano.org/x402/\" target=\"_blank\" rel=\"noopener noreferrer\">Cardano Developer Portal — Agentic Commerce et x402</a></div><div class=\"gc-src\"><a class=\"gc-src__btn\" href=\"https://github.com/x402-foundation/x402\" target=\"_blank\" rel=\"noopener noreferrer\">x402 — Spécification officielle du protocole</a></div><div class=\"gc-src\"><a class=\"gc-src__btn\" href=\"https://github.com/x402-foundation/x402/blob/main/specs/schemes/exact/scheme_exact_cardano.md\" target=\"_blank\" rel=\"noopener noreferrer\">x402 — Schéma de paiement sur Cardano</a></div>"
+    },
+    {
+      "title": "Zero-Knowledge Proofs (ZKPs) (fr : Preuves à divulgation nulle de connaissance)",
+      "letter": "z",
+      "slug": "zero-knowledge-proofs-zkps-fr-preuves-a-divulgation-nulle-de-connaissance",
+      "category": "smart-contracts",
+      "html": "<p>Des techniques cryptographiques qui permettent à une partie de prouver qu’une affirmation est vraie sans révéler les informations secrètes qui la justifient.</p><div class=\"gc-src\"><a class=\"gc-src__btn\" href=\"https://developers.cardano.org/docs/developers/curriculum/smart-contracts/advanced/zero-knowledge/\" target=\"_blank\" rel=\"noopener noreferrer\">Cardano Developer Portal — Zero-Knowledge Proofs</a></div>"
+    },
+    {
+      "title": "zkRollup",
+      "letter": "z",
+      "slug": "zkrollup",
+      "category": "smart-contracts",
+      "html": "<p>Une solution de mise à l’échelle de couche 2 (<em>Layer 2</em>) qui regroupe plusieurs transactions hors chaîne et utilise une preuve de validité vérifiée sur la chaîne principale pour démontrer que les opérations regroupées respectent les règles définies.</p><p>Sur Cardano, <strong>zkFold Rollup est une solution de mise à l’échelle en développement</strong> qui utilise une preuve à divulgation nulle de connaissance pour vérifier plusieurs transactions regroupées. Il convient donc de distinguer cette initiative en développement d’une fonctionnalité native déjà intégrée au protocole de base de Cardano.</p><div class=\"gc-src\"><a class=\"gc-src__btn\" href=\"https://cardano.org/layer-2/\" target=\"_blank\" rel=\"noopener noreferrer\">Cardano.org — Layer 2 : solutions de mise à l’échelle</a></div><div class=\"gc-src\"><a class=\"gc-src__btn\" href=\"https://github.com/zkFold/zkfold-cardano\" target=\"_blank\" rel=\"noopener noreferrer\">zkFold — Intégration de technologies ZK à Cardano</a></div>"
+    }
+  ],
+  "counts": {
+    "general": 47,
+    "tokens-assets": 30,
+    "consensus-staking": 50,
+    "smart-contracts": 32,
+    "wallets-keys": 23,
+    "governance": 26,
+    "network-protocol": 66
+  }
+}
