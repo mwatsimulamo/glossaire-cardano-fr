@@ -1,5 +1,8 @@
 ---
 layout: home
+description: >-
+  Glossaire Cardano en français : définitions claires des termes de la
+  blockchain, du staking et de la gouvernance pour comprendre l’écosystème.
 
 hero:
   name: Glossaire Cardano
